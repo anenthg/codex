@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyMetro</string>
+    <string name="hello_world">Fastest Way</string>
+    <string name="go">Find Fastest</string>
+    <string name="action_settings">Settings</string>
+    <string name="source">   Source  </string>
+    <string name="destination">Destination</string>
+    <string-array name="stations">
+        <item>East end</item>
+        <item>Gotham street</item>
+        <item>Batman street</item>
+        <item>Jokers Street</item>
+        <item>Hawkins street</item>
+        <item>Da Vinci lane</item>
+        <item>South Park</item>
+        <item>Newton bath tub</item>
+        <item>Einstein lane</item>
+        <item>Neo lane</item>
+        <item>Trinity lane</item>
+        <item>Morpheus lane</item>
+        <item>Smith lane</item>
+        <item>Cypher lane</item>
+        <item>Oracle lane</item>
+        <item>Keymakers lane</item>
+        <item>Matrix stand</item>
+        <item>South pole</item>
+        <item>Green House</item>
+        <item>Stadium House</item>
+        <item>Greenland</item>
+        <item>Sheldon Street</item>
+        <item>North Park</item>
+        <item>Foot stand</item>
+        <item>Football stadium</item>
+        <item>City Centre</item>
+        <item>Peter park</item>
+        <item>Maximus</item>
+        <item>Rocky street</item>
+        <item>Boxers street</item>
+        <item>Boxing avenue</item>
+        <item>West End</item>
+        <item>Green Cross</item>
+        <item>Orange Street</item>
+        <item>Silk board</item>
+        <item>Snake park</item>
+        <item>Little Street</item>
+        <item>Cricket Grounds</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PuzzleActivity!</string>
+    <string name="app_name">8-Puzzle</string>
+    <string name="size">50dp</string>
+    <string name="about"><u>What is 8-Puzzle?</u></string>
+    <string name="why"><u>Why are some puzzles unsolvable?</u></string>
+    <string name="desc">  <![CDATA[
+         <HTML>
+         <Body>
+         <br><p> <b>History :</b> The <i>8-puzzle</i> is a board game invented in 1874 by Noyes Palmer Chapman, 
+               a postmaster in Canastota, New York. The puzzle made its way to Hartford, 
+               Connecticut, where students in the American school of the Deaf started 
+               manufacturing the puzzle and, by December 1879, selling both locally and boston.
+                Then the puzzle became a craze in the U.S. in Febuarary 1880.</p>
+                
+                <b>Moves :</b>You can move tiles which have an adjacent <i>empty</i> tile. A tile can only be moved <i>horizontally</i>
+                 or <i>vertically</i>. To move a tile just touch it.<br>
+                 <b>Win :</b> To win you have to reach the configuration as shown above. Remember that any
+                 <i>valid</i> 8-Puzzle can be completed within <font color="#2BEE86">31 moves</font>.
+                
+            <br>               
+           <b>Note :</b> Not all inputs can lead to the above goal state. In fact out of <font color="#2BEE86">3,62,880</font> permutations only <font color="#2BEE86">1,81,440 (half)</font>
+        can lead to the above goal configuration. <p>But don&#39;t worry, when you <i>Shuffle,</i> we only give you valid puzzles. 
+         You can use the <i>Puzzle Solver</i> to check if a puzzle is solvable. If it is solvable, it gives you the solution.</p>
+         <b>Email Developers :</b> droidbros123@gmail.com<br>
+         </HTML>
+          ]]>
+        </string>
+      <string name="ok">Sure</string>
+      <string name="cancel">no, thanks</string>
+        <style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">15dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+</style>
+<style name="SmallText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">0dp</item>
+    <item name="android:textSize">10dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+</style>
+        <string name="okay">Ok</string>
+</resources>

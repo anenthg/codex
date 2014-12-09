@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.droid.customlayouts.SlidingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="@drawable/stock_text_view"
+        android:id="@+id/textView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:clickable="true"
+        android:layout_weight="4"
+        android:layout_gravity="center_vertical"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/notification_setting"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"/>
+
+</com.droid.customlayouts.SlidingFrameLayout>

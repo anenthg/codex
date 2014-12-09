@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<customlayouts.StockRowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="60dp"
+    android:maxHeight="60dp">
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="#003300"
+        android:background="@drawable/lemon_chiff"
+        android:id="@+id/stockButton"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:clickable="true"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/lastPrice"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="..."
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:textColor="#003300"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageButton"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/image_pressed_effect_selector"
+        android:src="@drawable/configure"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"/>
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/undoButton"
+        android:visibility="visible"
+        android:src="@drawable/undo"
+        android:background="@drawable/image_pressed_effect_selector"
+        android:layout_weight="1"/>
+</customlayouts.StockRowView>

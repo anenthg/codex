@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StockAlert-NSE.iml" filepath="$PROJECT_DIR$/StockAlert-NSE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StockAlertClient/StockAlertClient.iml" filepath="$PROJECT_DIR$/StockAlertClient/StockAlertClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stockalert/stockalert.iml" filepath="$PROJECT_DIR$/stockalert/stockalert.iml" />
+    </modules>
+  </component>
+</project>
+

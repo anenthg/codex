@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="30dp"
+    android:columnCount="2"
+    android:rowCount="5"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+    >
+
+    <TextView
+        android:id="@+id/lastUpdatedTime"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:layout_marginLeft="0dp"
+        android:text="As on "
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/currentPrice"
+        android:id="@+id/currentPrice"
+        android:layout_column="0"
+
+       />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/currentPriceValue"
+        android:layout_column="1"/>
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dayHighLow"
+        android:id="@+id/dayHighLow"
+         />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/dayHighLowValue"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/traded_volume"
+        android:id="@+id/dayTradedVolume"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/dayTradedVolumeValue"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/open_price"
+        android:id="@+id/dayOpenPrice"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/dayOpenPriceValue"
+        />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/yearHighLow"
+        android:id="@+id/yearHighLow"
+       />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/yearHighLowValue"
+        />
+
+
+
+</GridLayout>
+<ProgressBar
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/progressBar"
+android:visibility="visible"
+android:layout_gravity="center" />
+    </LinearLayout>

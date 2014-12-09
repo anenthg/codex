@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#835C3B"
+>
+
+    <Button
+        android:id="@+id/share" 
+        android:layout_height="30dp"
+        android:layout_width="70dp"
+        android:text=" Share "
+        android:layout_alignParentRight="true"
+        android:background="@drawable/yellow_button"
+        style="@style/SmallText">
+    </Button>
+    <Button
+        android:id="@+id/ab" 
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:text=" Puzzle Solver "
+        android:background="@drawable/yellow_button"
+        
+        style="@style/SmallText">
+    </Button>
+<Button
+        android:id="@+id/feedback" 
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="Feedback"
+        android:background="@drawable/yellow_button"
+        
+        style="@style/SmallText">
+    </Button>
+</RelativeLayout>

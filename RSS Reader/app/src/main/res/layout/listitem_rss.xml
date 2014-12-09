@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:background="#FF5534"
+            android:tag="Bottom3"
+            android:weightSum="10"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:id="@+id/trash"
+                android:src="@drawable/trash"
+                android:layout_weight="1"
+                android:layout_width="27dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:text="Did you like this article?"
+                android:textSize="17sp"
+                android:textColor="#fff"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/delete"
+                android:textColor="#FF5534"
+                android:background="#ffffff"
+                android:text="Yeah!"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+        <RelativeLayout
+
+            android:background="@drawable/item_selector"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#5252F6"
+                android:text="title"
+                android:id="@+id/title"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="description"
+                android:textColor="#000000"
+                android:id="@+id/description"
+                android:layout_below="@+id/title"
+                android:layout_toRightOf="@+id/imageView"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/kids_64"
+                android:id="@+id/imageView"
+                android:layout_alignParentLeft="true"
+
+                />
+
+        </RelativeLayout>
+    </com.daimajia.swipe.SwipeLayout>
+</LinearLayout>

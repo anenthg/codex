@@ -1,0 +1,2135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StockAlert - NSE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add Scrip</string>
+    <string name="addstockdialog_label">Enter the Company name or code</string>
+
+    <string-array name="stock_names">
+        <item>Balasore Alloys Ltd. - ISPATALLOYBE</item>
+        <item>Balkrishna Industries Ltd. - BALKRISIND</item>
+        <item>Ballarpur Industries Ltd. - BALLARPUR</item>
+        <item>Balmer Lawrie &amp; Company Ltd. - BALMLAWRIE</item>
+        <item>Balrampur Chini Mills Ltd. - BALRAMCHIN</item>
+        <item>Balurghat Technologies Ltd. - BALURTRANSBE</item>
+        <item>Banaras Beads Ltd. - BANARBEADS</item>
+        <item>Banco Products (India) Ltd. - BANCOINDIA</item>
+        <item>Bang Overseas Ltd. - BANG</item>
+        <item>Bank of Baroda - BANKBARODA</item>
+        <item>Bank of India - BANKINDIA</item>
+        <item>Bank of Maharashtra - MAHABANK</item>
+        <item>Bank of Rajasthan Ltd.[Merged] - BANKRAJAS</item>
+        <item>Bannari Amman Spinning Mills Ltd. - BASML</item>
+        <item>Bannari Amman Sugars Ltd. - BANARISUG</item>
+        <item>Banswara Syntex Ltd. - BANSWRASBE</item>
+        <item>Barak Valley Cements Ltd. - BVCLBE</item>
+        <item>Bartronics India Ltd. - BARTRONICS</item>
+        <item>BASF India Ltd. - BASF</item>
+        <item>Bata India Ltd. - BATAINDIA</item>
+        <item>Batliboi Ltd. - BATLIBOI</item>
+        <item>Bayer Cropscience Ltd. - BAYERCROP</item>
+        <item>Beardsell Ltd. - BEARDSELL</item>
+        <item>Bedmutha Industries Ltd. - BEDMUTHA</item>
+        <item>Bell Ceramics Ltd. - BELLCERATL</item>
+        <item>Bellary Steels &amp; Alloys Ltd. - BELLARYSTLBE</item>
+        <item>BEML Ltd. - BEMLBE</item>
+        <item>Bengal Tea and Fabrics Ltd. - BENGALTEABE</item>
+        <item>Berger Paints (India) Ltd. - BERGEPAINT</item>
+        <item>Best &amp; Crompton Engineering Ltd. - BECRELBE</item>
+        <item>BF Investment Ltd. - BFINVEST</item>
+        <item>BF Utilities Ltd. - BFUTILITIE</item>
+        <item>BGR Energy Systems Ltd. - BGRENERGY</item>
+        <item>Bhagawati Gas Ltd. - BAGWATIGASBE</item>
+        <item>Bhagwati Banquets &amp; Hotels Ltd. - TGBHOTELS</item>
+        <item>Bhagyanagar India Ltd. - BHAGYNAGAR</item>
+        <item>Bhansali Engineering Polymers Ltd. - BEPL</item>
+        <item>Bharat Bijlee Ltd. - BBL</item>
+        <item>Bharat Electronics Ltd. - BEL</item>
+        <item>Bharat Forge Ltd. - BHARATFORG</item>
+        <item>Bharat Gears Ltd. - BHARATGEAR</item>
+        <item>Bharat Heavy Electricals Ltd. - BHEL</item>
+        <item>Bharat Petroleum Corporation Ltd. - BPCL</item>
+        <item>Bharat Rasayan Ltd. - BHARATRAS</item>
+        <item>Bharati Shipyard Ltd. - BHARTISHIPBE</item>
+        <item>Bharatiya Global Infomedia Ltd. - BGLOBALBE</item>
+        <item>Bharti Airtel Ltd. - BHARTIARTL</item>
+        <item>Bharti Infratel Ltd. - INFRATEL</item>
+        <item>Bhartiya International Ltd. - BIL</item>
+        <item>Bhor Industries Ltd. - BHORIND</item>
+        <item>Bhushan Steel Ltd. - BHUSANSTL</item>
+        <item>Bhuwalka Steel Industries Ltd. - BUWALKASTLBE</item>
+        <item>Bihar Sponge Iron Ltd. - BIHARSPONGBE</item>
+        <item>Bil Energy Systems Ltd. - BILENERGYBE</item>
+        <item>Bilpower Ltd. - BILPOWERBE</item>
+        <item>Bimetal Bearings Ltd. - BIMETAL</item>
+        <item>Binani Cement Ltd. - BINANICEM</item>
+        <item>Binani Industries Ltd. - BINANIIND</item>
+        <item>Biocon Ltd. - BIOCON</item>
+        <item>Biofil Chemicals &amp; Pharmaceuticals Ltd. - BIOFILCHEM</item>
+        <item>Birla Corporation Ltd. - BIRLACORPN</item>
+        <item>Birla Cotsyn (India) Ltd. - BIRLACOTBE</item>
+        <item>Birla Ericsson Optical Ltd. - BIRLAERICBE</item>
+        <item>Birla Global Finance Ltd. - BGFL</item>
+        <item>Birla Machining &amp; Toolings Ltd. - DAGERFORSTBE</item>
+        <item>Birla Power Solutions Ltd. - BIRLAPOWERBZ</item>
+        <item>BLB Ltd. - BLBLIMITEDBE</item>
+        <item>Bliss GVS Pharma Ltd. - BLISSGVS</item>
+        <item>Blow Plast Ltd.[Merged] - BLOWPLAST</item>
+        <item>Blue Bird (India) Ltd. - BLUEBIRD</item>
+        <item>Blue Blends (India) Ltd. - BLUEBLENDS</item>
+        <item>Blue Chip India Ltd. - BLUECHIPBE</item>
+        <item>Blue Coast Hotels Ltd. - BLUECOAST</item>
+        <item>Blue Dart Express Ltd. - BLUEDART</item>
+        <item>Blue Star Infotech Ltd. - BLUESTINFO</item>
+        <item>Blue Star Ltd. - BLUESTARCO</item>
+        <item>Bodal Chemicals Ltd. - BODALCHEM</item>
+        <item>Bodhtree Consulting Ltd. - BODHTREEBE</item>
+        <item>Bombay Burmah Trading Corporation Ltd. - BBTC</item>
+        <item>Bombay Dyeing &amp; Manufacturing Company Ltd. - BOMDYEING</item>
+        <item>Bombay Rayon Fashions Ltd. - BRFL</item>
+        <item>Bongaigaon Refinery &amp; Petrochemicals Ltd.[Merged] - BONGAIREFN</item>
+        <item>Borosil Glass Works Ltd. - BOROGLASSBE</item>
+        <item>Bosch Chassis Systems India Ltd. - BOSCHCHASY</item>
+        <item>Bosch Ltd. - BOSCHLTD</item>
+        <item>BPL Engineering Ltd. - BPLENGGBE</item>
+        <item>BPL Ltd. - BPL</item>
+        <item>Brabourne Enterprises Ltd.[Amalgamated] - BRABOURNEBE</item>
+        <item>Brandhouse Retails Ltd. - BRANDHOUSEBE</item>
+        <item>Brigade Enterprises Ltd. - BRIGADE</item>
+        <item>Bright Brothers Ltd. - BRIGHTBROSBE</item>
+        <item>Britannia Industries Ltd. - BRITANNIA</item>
+        <item>Broadcast Initiatives Ltd. - BROADCASTBE</item>
+        <item>Brooks Laboratories Ltd. - BROOKS</item>
+        <item>BS Ltd. - BSLIMITED</item>
+        <item>BS Refrigerators Ltd. - BPLREFRIGBE</item>
+        <item>BSEL Infrastructure Realty Ltd. - BSELINFRABE</item>
+        <item>BSI Ltd. - BSIBE</item>
+        <item>BSL Ltd. - BSL</item>
+        <item>Burnpur Cement Ltd. - BURNPUR</item>
+        <item>Butterfly Gandhimathi Appliances Ltd. - BUTTERFLY</item>
+        <item>C &amp; C Constructions Ltd. - CANDCBE</item>
+        <item>C Mahendra Exports Ltd. - CMAHENDRA</item>
+        <item>Cable Corporation of India Ltd. - CCIBE</item>
+        <item>Cadila Healthcare Ltd. - CADILAHC</item>
+        <item>Cairn India Ltd. - CAIRN</item>
+        <item>California Software Company Ltd. - CALSOFTBE</item>
+        <item>Cambridge Technology Enterprises Ltd. - CTE</item>
+        <item>Camphor &amp; Allied Products Ltd. - CAMPALLIEDBE</item>
+        <item>Can Fin Homes Ltd. - CANFINHOME</item>
+        <item>Canara Bank - CANBK</item>
+        <item>Cantabil Retail India Ltd. - CANTABIL</item>
+        <item>Capital First Ltd. - CAPF</item>
+        <item>Caplin Point Laboratories Ltd. - CAPLIPOINT</item>
+        <item>Capri Global Capital Ltd. - CGCL</item>
+        <item>Caprihans India Ltd. - CAPRIHANS</item>
+        <item>Carborundum Universal Ltd. - CARBORUNIV</item>
+        <item>Career Point Ltd. - CAREERP</item>
+        <item>Carol Info Services Ltd. - CAROLINFO</item>
+        <item>Castrol India Ltd. - CASTROLIND</item>
+        <item>CCL Products India Ltd. - CCL</item>
+        <item>CDI International Ltd. - COMPACDISCBE</item>
+        <item>Ceat Ltd. - CEATLTD</item>
+        <item>Ceenik Exports (India) Ltd. - CEENIKEXPOBE</item>
+        <item>Celebrity Fashions Ltd. - CELEBRITYBE</item>
+        <item>Celestial Biolabs Ltd. - CELESTIAL</item>
+        <item>Central Bank of India - CENTRALBK</item>
+        <item>Central India Polyesters Ltd.[Merged] - CIPL</item>
+        <item>Centum Electronics Ltd. - CENTUM</item>
+        <item>Centurion Bank of Punjab Ltd. - CENTBOP</item>
+        <item>Century Enka Ltd. - CENTENKA</item>
+        <item>Century Extrusions Ltd. - CENTEXTBE</item>
+        <item>Century Plyboards (I) Ltd. - CENTURYPLY</item>
+        <item>Century Textiles &amp; Industries Ltd. - CENTURYTEX</item>
+        <item>Cera Sanitaryware Ltd. - CERA</item>
+        <item>Cerebra Integrated Technologies Ltd. - CEREBRAINTBE</item>
+        <item>CESC Ltd. - CESC</item>
+        <item>CFL Capital Financial Services Ltd. - CEATFIN</item>
+        <item>Chambal Fertilisers &amp; Chemicals Ltd. - CHAMBLFERT</item>
+        <item>Champdany Industries Ltd. - CHAMPDANYBE</item>
+        <item>Chemfab Alkalies Ltd. - CHEMFALKAL</item>
+        <item>Chemplast Sanmar Ltd. - CHEMPLASTBE</item>
+        <item>Chennai Petroleum Corporation Ltd. - CHENNPETRO</item>
+        <item>Cheslind Textiles Ltd. - CHESLINTEX</item>
+        <item>Chettinad Cement Corporation Ltd. - CHETTINAD</item>
+        <item>CHI Investments Ltd.[Amalgamated] - CHI</item>
+        <item>Choksi Tubes Company Ltd. - CHOKSITUBEBE</item>
+        <item>Cholamandalam Investment &amp; Finance Company Ltd. - CHOLAFIN</item>
+        <item>Chowgule Steamships Ltd. - CHOWGULSTMBE</item>
+        <item>Chromatic India Ltd. - CHROMATIC</item>
+        <item>Ciba India Ltd. [Merged] - CIBASPEC</item>
+        <item>CIL Nova Petrochemicals Ltd. - CNOVAPETRO</item>
+        <item>Cimmco Ltd. - CIMMCOBE</item>
+        <item>Cineline India Ltd. - CINELINE</item>
+        <item>Cinemax India Ltd. - CINEMAXIN</item>
+        <item>Cinevista Ltd. - CINEVISTABE</item>
+        <item>Cipla Ltd. - CIPLA</item>
+        <item>Citurgia Biochemicals Ltd. - CITURGIBIO</item>
+        <item>City Union Bank Ltd. - CUB</item>
+        <item>Clariant Chemicals (India) Ltd. - CLNINDIA</item>
+        <item>Classic Diamonds (India) Ltd. - CLASSICBE</item>
+        <item>Clutch Auto Ltd. - CLUTCHAUTO</item>
+        <item>CMC Ltd. - CMC</item>
+        <item>CMI FPE Ltd. - FLATPRODBE</item>
+        <item>Coal India Ltd. - COALINDIA</item>
+        <item>Colgate - Palmolive (India) Ltd. - COLPAL</item>
+        <item>Color Chips (India) Ltd. - COLORCHIPS</item>
+        <item>Commercial Engineers &amp; Body Builders Co Ltd. - CEBBCOBE</item>
+        <item>Compuage Infocom Ltd. - COMPUAGE</item>
+        <item>Compucom Software Ltd. - COMPUSOFT</item>
+        <item>Compudyne Winfosystems Ltd. - COMPUDYNE</item>
+        <item>Compulink Systems Ltd.[Merged] - COMSYS</item>
+        <item>Computech International Ltd. - COMPUTECH</item>
+        <item>Consolidated Construction Consortium Ltd. - CCCLBE</item>
+        <item>Consolidated Finvest &amp; Holdings Ltd. - CONSOFINVTBE</item>
+        <item>Consortex Karl Doelitzsch (India) Ltd. - APOWERTOOLBE</item>
+        <item>Container Corporation of India Ltd. - CONCOR</item>
+        <item>Coral Hub Ltd. - CORAL - HUBBE</item>
+        <item>Coral India Finance &amp; Housing Ltd. - CORALFINACBE</item>
+        <item>Cords Cable Industries Ltd. - CORDSCABLEBE</item>
+        <item>CORE Education &amp; Technologies Ltd. - COREEDUTEC</item>
+        <item>Core Healthcare Ltd. - COREPARENTBE</item>
+        <item>Coromandel Engineering Company Ltd. - COROENGG</item>
+        <item>Coromandel International Ltd. - COROMANDEL</item>
+        <item>Corporation Bank - CORPBANK</item>
+        <item>Cosmo Films Ltd. - COSMOFILMS</item>
+        <item>Country Condo\'s Ltd. - COUNCODOS</item>
+        <item>Cox &amp; Kings Ltd. - COXandKINGS</item>
+        <item>Cranes Software International Ltd. - CRANESSOFT</item>
+        <item>Creative Eye Ltd. - CREATIVEYE</item>
+        <item>Credit Analysis &amp; Research Ltd. - CARERATING</item>
+        <item>Crest Animation Studios Ltd. - CRESTANIBZ</item>
+        <item>Crew B.O.S Products Ltd. - CREWBOS</item>
+        <item>Crisil Ltd. - CRISIL</item>
+        <item>Crompton Greaves Ltd. - CROMPGREAV</item>
+        <item>Cubex Tubings Ltd. - CUBEXTUBBE</item>
+        <item>Cummins India Ltd. - CUMMINSIND</item>
+        <item>Cura Technologies Ltd. - CURATECHBE</item>
+        <item>Cyber Media (India) Ltd. - CYBERMEDIABE</item>
+        <item>Cybertech Systems &amp; Software Ltd. - CYBERTECH</item>
+        <item>Cyient Ltd. - CYIENT</item>
+        <item>D B (International) Stock Brokers Ltd. - DBSTOCKBRO</item>
+        <item>D B Realty Ltd. - DBREALTYBE</item>
+        <item>D - Link (India) Ltd. - DLINKINDIABE</item>
+        <item>Dabur India Ltd. - DABUR</item>
+        <item>Daewoo Motors India Ltd. - DCMDAEWOO</item>
+        <item>Dai Ichi Karkaria Ltd. - DAICHIKARKBE</item>
+        <item>Dalmia Bharat Ltd. - DALMIABHABE</item>
+        <item>Dalmia Bharat Sugar and Industries Ltd. - DALMIASUG</item>
+        <item>Dalmia Refractories Ltd. - DALMIAREFBE</item>
+        <item>Datamatics Global Services Ltd. - DATAMATICS</item>
+        <item>Datapro Information Technology Ltd. - DATAPROINFBE</item>
+        <item>Datar Switchgear Ltd. - DATARSWICHBT</item>
+        <item>DB Corp Ltd. - DBCORP</item>
+        <item>DCB Bank Ltd. - DCBBANK</item>
+        <item>DCM Financial Services Ltd. - DCMFINSERV</item>
+        <item>DCM Ltd. - DCM</item>
+        <item>DCM Shriram Industries Ltd. - DCMSRMINDBE</item>
+        <item>DCM Shriram Ltd. - DCMSHRIRAM</item>
+        <item>DCW Ltd. - DCW</item>
+        <item>De Nora India Ltd. - DENORA</item>
+        <item>Deccan Cements Ltd. - DECCANCEBE</item>
+        <item>Deccan Chronicle Holdings Ltd. - DCHLBE</item>
+        <item>Decolight Ceramics Ltd. - DECOLIGHT</item>
+        <item>Deep Industries Ltd. - DEEPIND</item>
+        <item>Deepak Fertilisers &amp; Petrochemicals Corporation Ltd. - DEEPAKFERT</item>
+        <item>Deepak Nitrite Ltd. - DEEPAKNTR</item>
+        <item>Deepak Spinners Ltd. - DEEPAKSPINBE</item>
+        <item>Delta Corp Ltd. - DELTACORP</item>
+        <item>Delta Magnets Ltd. - DELTAMAGNTBE</item>
+        <item>Den Networks Ltd. - DEN</item>
+        <item>Dena Bank - DENABANK</item>
+        <item>Denso India Ltd. - DENSO</item>
+        <item>Dewan Housing Finance Corporation Ltd. - DHFL</item>
+        <item>Dewan Rubber Industries Ltd. - DEWANRUBBE</item>
+        <item>Dewan Tyres Ltd. - DEWANTYREBE</item>
+        <item>Dhampur Sugar Mills Ltd. - DHAMPURSUG</item>
+        <item>Dhanlaxmi Bank Ltd. - DHANBANK</item>
+        <item>Dhanuka Agritech Ltd. - DHANUKA</item>
+        <item>Dhanus Technologies Ltd. - DHANUSBE</item>
+        <item>Dharamsi Morarji Chemicals Company Ltd. - DHARAMORARBE</item>
+        <item>Dharani Sugars &amp; Chemicals Ltd. - DHARSUGARBE</item>
+        <item>Dhunseri Investments Ltd. - DHUNINV</item>
+        <item>Dhunseri Petrochem &amp; Tea Ltd. - DPTL</item>
+        <item>Diamond Power Infrastructure Ltd. - DIAPOWER</item>
+        <item>DIC India Ltd. - DICIND</item>
+        <item>Digjam Ltd. - DIGJAM</item>
+        <item>Dion Global Solutions Ltd. - FORTISFIN</item>
+        <item>Disa India Ltd. - GEORGFISCHBE</item>
+        <item>Dish TV India Ltd. - DISHTV</item>
+        <item>Dishman Pharmaceuticals &amp; Chemicals Ltd. - DISHMAN</item>
+        <item>Divi\'s Laboratories Ltd. - DIVISLAB</item>
+        <item>DLF Ltd. - DLF</item>
+        <item>Dolphin Offshore Enterprises (India) Ltd. - DOLPHINOFF</item>
+        <item>Donear Industries Ltd. - DONEARBE</item>
+        <item>Doon Valley Rice Ltd. - DOONVALLEYBE</item>
+        <item>Dot Com Global Ltd. - PRECIMDIAMBE</item>
+        <item>DQ Entertainment (International) Ltd. - DQE</item>
+        <item>DR Softech &amp; Industries Ltd. - DRIND</item>
+        <item>Dr. Datsons Labs Ltd. - DRDATSONS</item>
+        <item>Dr. Reddy\'s Laboratories Ltd. - DRREDDY</item>
+        <item>Dredging Corporation Of India Ltd. - DREDGECORP</item>
+        <item>DS Kulkarni Developers Ltd. - DSKULKARNI</item>
+        <item>DSJ Communications Ltd. - DALALSTCOM</item>
+        <item>Duncans Industries Ltd. - DUNCANSLTDBE</item>
+        <item>Dunlop India Ltd. - DUNLOPBE</item>
+        <item>Dwarikesh Sugar Industries Ltd. - DWARKESH</item>
+        <item>Dynacons Systems &amp; Solutions Ltd. - DSSLBE</item>
+        <item>Dynacons Technologies Ltd. - DYNATECHBE</item>
+        <item>Dynamatic Technologies Ltd. - DYNAMATECHBE</item>
+        <item>Eastcoast Steel Ltd. - ESTCSTSTELBE</item>
+        <item>Eastern Silk Industries Ltd. - EASTSILKBE</item>
+        <item>Eastern Sugar &amp; Industries Ltd. - EASTSUGIND</item>
+        <item>Easun Reyrolle Ltd. - EASUNREYRL</item>
+        <item>ECE Industries Ltd. - ECEIND</item>
+        <item>eClerx Services Ltd. - ECLERX</item>
+        <item>Ecoboard Industries Ltd. - WESTERNBIOBE</item>
+        <item>Edelweiss Financial Services Ltd. - EDELWEISSBE</item>
+        <item>Edserv Softsystems Ltd. - EDSERV</item>
+        <item>Educomp Solutions Ltd. - EDUCOMPBE</item>
+        <item>Eicher Ltd. - EICHERBE</item>
+        <item>Eicher Motors Ltd. - EICHERMOT</item>
+        <item>EID Parry (India) Ltd. - EIDPARRY</item>
+        <item>EIH Associated Hotels Ltd. - EIHAHOTELS</item>
+        <item>EIH Ltd. - EIHOTEL</item>
+        <item>Eimco Elecon (India) Ltd. - EIMCOELECOBE</item>
+        <item>EL Forge Ltd. - ELFORGEBE</item>
+        <item>Elantas Beck India Ltd. - DRBECK</item>
+        <item>Elbee Services Ltd. - ELBEEBE</item>
+        <item>Elder Pharmaceuticals Ltd. - ELDERPHARM</item>
+        <item>Elecon Engineering Company Ltd. - ELECON</item>
+        <item>Electrex (India) Ltd. - ELECTRXBE</item>
+        <item>Electrosteel Castings Ltd. - ELECTCAST</item>
+        <item>Electrosteel Steels Ltd. - ESL</item>
+        <item>Electrotherm (India) Ltd. - ELECTHERM</item>
+        <item>Elgi Equipments Ltd. - ELGIUIP</item>
+        <item>Elgi Rubber Company Ltd. - ELGIRUBCO</item>
+        <item>Elgi Rubber Company Ltd.(Old) - ELGIRUBBER</item>
+        <item>Elnet Technologies Ltd. - ELNETBE</item>
+        <item>Elpro International Ltd. - ELPROINTL</item>
+        <item>Emami Infrastructure Ltd. - EMAMIINFRA</item>
+        <item>Emami Ltd. - EMAMILTD</item>
+        <item>Emco Ltd. - EMCOBE</item>
+        <item>Emkay Global Financial Services Ltd. - EMKAYBE</item>
+        <item>Emmbi Industries Ltd. - EMMBI</item>
+        <item>Empee Distilleries Ltd. - EDL</item>
+        <item>Empee Sugars and Chemicals Ltd. - EMPEESUGBE</item>
+        <item>Emtex Industries (India) Ltd. - EMTEXINDBE</item>
+        <item>Energy Development Company Ltd. - ENERGYDEV</item>
+        <item>Engineers India Ltd. - ENGINERSIN</item>
+        <item>Enkay Texofood Industries Ltd. - ENKTEXFOODBE</item>
+        <item>Entegra Ltd. - ENTEGRABE</item>
+        <item>Entertainment Network (India) Ltd. - ENIL</item>
+        <item>Envair Electrodyne Ltd. - KIRLOSELECBE</item>
+        <item>Eon Electric Ltd. - EON</item>
+        <item>Era Infra Engineering Ltd. - ERAINFRA</item>
+        <item>Eros International Media Ltd. - EROSMEDIA</item>
+        <item>Esab India Ltd. - ESABINDIABE</item>
+        <item>Escorts Finance Ltd. - ESCORTSFIN</item>
+        <item>Escorts Ltd. - ESCORTS</item>
+        <item>Eskay Kn\'IT (India) Ltd. - SHREEKRPET</item>
+        <item>Ess Dee Aluminium Ltd. - ESSDEE</item>
+        <item>Essar Oil Ltd. - ESSAROIL</item>
+        <item>Essar Ports Ltd. - ESSARPORTS</item>
+        <item>Essar Shipping Ltd. - ESSARSHPNG</item>
+        <item>Essar Steel Ltd. - ESTL</item>
+        <item>Essel Propack Ltd. - ESSELPACK</item>
+        <item>Ester Industries Ltd. - ESTERBE</item>
+        <item>ETC Networks Ltd.(Old1) - ETCNETBE</item>
+        <item>ETC Networks Ltd.[Amalgamated] - ETC</item>
+        <item>ETP Corporation Ltd. - ETPCORP</item>
+        <item>Eupharma Laboratories Ltd. - EUPHARMLAB</item>
+        <item>Euro Ceramics Ltd. - EUROCERABE</item>
+        <item>Euro Multivision Ltd. - EUROMULTIBE</item>
+        <item>Eurotex Industries &amp; Exports Ltd. - EUROTEXIND</item>
+        <item>Eveready Industries India Ltd. - EVEREADY</item>
+        <item>Everest Industries Ltd. - EVERESTINDBE</item>
+        <item>Everest Kanto Cylinder Ltd. - EKC</item>
+        <item>Everonn Education Ltd. - EVERONN</item>
+        <item>Evinix Industries Ltd. - EVINIXBE</item>
+        <item>Excel Crop Care Ltd. - EXCELCROP</item>
+        <item>Excel Industries Ltd. - EXCELINDUS</item>
+        <item>Excel Infoways Ltd. - EXCELINFO</item>
+        <item>Exide Industries Ltd. - EXIDEIND</item>
+        <item>Fag Bearings India Ltd. - FAGBEARING</item>
+        <item>Falcon Tyres Ltd. - FALCONTYREBE</item>
+        <item>Fame India Ltd. - FAME</item>
+        <item>Farmax India Ltd. - FARMAXINDBE</item>
+        <item>Faze Three Ltd. - FAZETHREEBE</item>
+        <item>FCGL Industries Ltd. - FASTCAPBE</item>
+        <item>FCI OEN Connectors Ltd. - OENCONNECT</item>
+        <item>FCL Technologies &amp; Products Ltd. - FLEXCHEM</item>
+        <item>FCS Software Solutions Ltd. - FCSSOFTBE</item>
+        <item>FDC Ltd. - FDC</item>
+        <item>Fedders Lloyd Corporation Ltd. - FEDDERLOYD</item>
+        <item>Federal Bank Ltd. - FEDERALBNK</item>
+        <item>Federal - Mogul Goetze (India) Ltd. - FMGOETZE</item>
+        <item>Ferro Alloys Corporation Ltd. - FERROALLOYBE</item>
+        <item>Fertilisers and Chemicals Travancore Ltd. - FACT</item>
+        <item>FGP Ltd. - FGPINDBE</item>
+        <item>Ficom Organics Ltd. - FICOMORGANBE</item>
+        <item>FIEM Industries Ltd. - FIEMIND</item>
+        <item>Filatex India Ltd. - FILATEXBE</item>
+        <item>Financial Technologies (India) Ltd. - FINANTECH</item>
+        <item>Finolex Cables Ltd. - FINCABLES</item>
+        <item>Finolex Industries Ltd. - FINPIPE</item>
+        <item>First Leasing Company of India Ltd. - FIRSTLEASEBZ</item>
+        <item>First Winner Industries Ltd. - FIRSTWIN</item>
+        <item>Firstsource Solutions Ltd. - FSL</item>
+        <item>Flex Engineering Ltd.[Merged] - FLEXENGG</item>
+        <item>Flexituff International Ltd. - FLEXITUFF</item>
+        <item>Flextronics Software Systems Ltd. - FSS</item>
+        <item>Forbes &amp; Company Ltd. - FORBESGOK</item>
+        <item>Force Motors Ltd. - BAJAJTEMPO</item>
+        <item>Fortis Healthcare Ltd. - FORTIS</item>
+        <item>Foseco India Ltd. - FOSECOIND</item>
+        <item>Fresenius Kabi Oncology Ltd. - FKONCO</item>
+        <item>Frog Cellsat Ltd. - FROGCELLIT</item>
+        <item>Fulford (India) Ltd. - FULFORD</item>
+        <item>Futura Polyesters Ltd. - INDIANORGBE</item>
+        <item>Future Consumer Enterprises Ltd. - FCEL</item>
+        <item>Future Lifestyle Fashions Ltd. - FLFL</item>
+        <item>Future Market Networks Ltd. - FMNL</item>
+        <item>Future Retail Ltd. - FRL</item>
+        <item>Futuristic Offshore Services &amp; Chemical Ltd. - GANESHANHYBE</item>
+        <item>G M Breweries Ltd. - GMBREW</item>
+        <item>Gabriel India Ltd. - GABRIEL</item>
+        <item>GAIL (India) Ltd. - GAIL</item>
+        <item>Galada Power &amp; Telecommunications Ltd. - GALPOWTELBE</item>
+        <item>Gallantt Ispat Ltd. - GALLISPAT</item>
+        <item>Gallantt Metal Ltd. - GALLANTT</item>
+        <item>Gammon India Ltd. - GAMMONIND</item>
+        <item>Gammon Infrastructure Projects Ltd. - GAMMNINFRA</item>
+        <item>Gandhi Special Tubes Ltd. - GANDHITUBE</item>
+        <item>Ganesh Benzoplast Ltd. - GANESHBENZ</item>
+        <item>Ganesh Housing Corporation Ltd. - GANESHHOUC</item>
+        <item>Gangotri Textile Ltd. - GANGOTRIBE</item>
+        <item>Garden Silk Mills Ltd. - GARDENSILK</item>
+        <item>Garware Polyester Ltd. - GARWARPOLYBE</item>
+        <item>Garware - Wall Ropes Ltd. - GARWALLROP</item>
+        <item>Gateway Distriparks Ltd. - GDL</item>
+        <item>Gati Ltd. - GATIBE</item>
+        <item>Gayatri Projects Ltd. - GAYAPROJBE</item>
+        <item>GE Capital Transportation Financial Services Ltd - SRFFINANCEBE</item>
+        <item>GeeCee Ventures Ltd. - GEECEE</item>
+        <item>Geekay Exim (India) Ltd. - GEEKAYEXIMBE</item>
+        <item>GEI Industrial Systems Ltd. - GEINDSYS</item>
+        <item>Gem Spinners India Ltd. - GEMSPINBE</item>
+        <item>Gemini Communication Ltd. - GEMINI</item>
+        <item>Genesys International Corporation Ltd. - GENESYS</item>
+        <item>Genus Power Infrastructures Ltd. - GENUSPOWER</item>
+        <item>Geodesic Ltd. - GEODESIC</item>
+        <item>Geojit BNP Paribas Financial Services Ltd. - GEOJITBNPPBE</item>
+        <item>Geometric Ltd. - GEOMETRIC</item>
+        <item>GHCL Ltd. - GHCL</item>
+        <item>GI Engineering Solutions Ltd. - GISOLUTIONBE</item>
+        <item>GIC Housing Finance Ltd. - GICHSGFIN</item>
+        <item>Gillanders Arbuthnot &amp; Company Ltd. - GILLANDERS</item>
+        <item>Gillette India Ltd. - GILLETTE</item>
+        <item>Ginni Filaments Ltd. - GINNIFILA</item>
+        <item>Girdharilal Sugar &amp; Allied Industries Ltd. - NARMADASUG</item>
+        <item>Gitanjali Gems Ltd. - GITANJALI</item>
+        <item>GKB Ophthalmics Ltd. - GKB</item>
+        <item>GKW Ltd. - GKWLIMITED</item>
+        <item>GlaxoSmithKline Consumer Healthcare Ltd. - GSKCONS</item>
+        <item>GlaxoSmithKline Pharmaceuticals Ltd. - GLAXO</item>
+        <item>Glenmark Pharmaceuticals Ltd. - GLENMARK</item>
+        <item>Global Infrastructure &amp; Technologies Ltd. - MANTRIHSGBE</item>
+        <item>Global Offshore Services Ltd. - GLOBOFFS</item>
+        <item>Global Vectra Helicorp Ltd. - GLOBALVECTBE</item>
+        <item>Globus Corporation Ltd. - KARUNACAB</item>
+        <item>Globus Spirits Ltd. - GLOBUSSPR</item>
+        <item>Glodyne Technoserve Ltd. - GLODYNE</item>
+        <item>Glory Films Ltd. - GLORY</item>
+        <item>GMR Infrastructure Ltd. - GMRINFRA</item>
+        <item>Goa Carbons Ltd. - GOACARBON</item>
+        <item>Godavari Fertilizers and Chemicals Ltd.[Merged] - GODAVRFERT</item>
+        <item>Godawari Power &amp; Ispat Ltd. - GPIL</item>
+        <item>Godfrey Philips India Ltd. - GODFRYPHLP</item>
+        <item>Godrej Consumer Products Ltd. - GODREJCP</item>
+        <item>Godrej Industries Ltd. - GODREJIND</item>
+        <item>Godrej Properties Ltd. - GODREJPROP</item>
+        <item>Goenka Diamond &amp; Jewels Ltd. - GOENKA</item>
+        <item>Gokaldas Exports Ltd. - GOKEX</item>
+        <item>Gokul Refoils &amp; Solvent Ltd. - GOKULBE</item>
+        <item>GOL Offshore Ltd. - GTOFFSHORE</item>
+        <item>Golden Tobacco Ltd. - GOLDENTOBC</item>
+        <item>Goldiam International Ltd. - GOLDIAM</item>
+        <item>Goldstone Infratech Ltd. - GOLDINFRA</item>
+        <item>Goldstone Technologies Ltd. - GOLDTECHBE</item>
+        <item>Gontermann Peipers (India) Ltd. - GONTERPEIPBE</item>
+        <item>Goodricke Group Ltd. - GOODRICKE</item>
+        <item>Goodyear India Ltd. - GOODYEAR</item>
+        <item>Govind Rubber Ltd. - GOVINRUBERBE</item>
+        <item>Grabal Alok Impex Ltd. - GRABALALK</item>
+        <item>Granules India Ltd. - GRANULES</item>
+        <item>Graphite India Ltd. - GRAPHITE</item>
+        <item>Grasim Industries Ltd. - GRASIM</item>
+        <item>Gravita India Ltd. - GRAVITA</item>
+        <item>Great Eastern Shipping Company Ltd. - GESHIP</item>
+        <item>Greaves Cotton Ltd. - GREAVESCOT</item>
+        <item>Green Fire Agri Commodities Ltd. - GREENFIREBE</item>
+        <item>Greenearth Resources and Projects Ltd. - AUSTRALBE</item>
+        <item>Greenply Industries Ltd. - GREENPLY</item>
+        <item>Grindwell Norton Ltd. - GRINDWELL</item>
+        <item>GRUH Finance Ltd. - GRUH</item>
+        <item>GSL (India) Ltd. - GSLBE</item>
+        <item>GSL Nova Petrochemicals Ltd. - GSLNOVABE</item>
+        <item>GSS Infotech Ltd. - GSS</item>
+        <item>GTL Infrastructure Ltd. - GTLINFRABE</item>
+        <item>GTL Ltd. - GTL</item>
+        <item>GTN Industries Ltd. - GTNINDBE</item>
+        <item>GTN Textiles Ltd. - GTNTEXBE</item>
+        <item>Gufic BioSciences Ltd. - GUFICBIO</item>
+        <item>Gujarat Alkalies &amp; Chemicals Ltd. - GUJALKALI</item>
+        <item>Gujarat Ambuja Exports Ltd. - GAEL</item>
+        <item>Gujarat Apollo Industries Ltd. - GUJAPOLLO</item>
+        <item>Gujarat Borosil Ltd. - GUJBOROSILBE</item>
+        <item>Gujarat Cotex Ltd. - GUJCOTEXBE</item>
+        <item>Gujarat Cypromet Ltd. - GUJCYPROMBE</item>
+        <item>Gujarat Fluorochemicals Ltd. - GUJFLUORO</item>
+        <item>Gujarat Gas Company Ltd. - GUJRATGAS</item>
+        <item>Gujarat Industries Power Company Ltd. - GIPCL</item>
+        <item>Gujarat Lease Financing Ltd. - GLFLBE</item>
+        <item>Gujarat Mineral Development Corporation Ltd. - GMDCLTD</item>
+        <item>Gujarat Narmada Valley Fertilizers &amp; Chemicals Ltd. - GNFC</item>
+        <item>Gujarat NRE Coke Ltd. - GUJNRECOKE</item>
+        <item>Gujarat Optical Communication Ltd. - GUJOPTICALBE</item>
+        <item>Gujarat Pipavav Port Ltd. - GPPL</item>
+        <item>Gujarat Raffia Industries Ltd. - GUJRAFFIA</item>
+        <item>Gujarat Sidhee Cement Ltd. - GSCLCEMENT</item>
+        <item>Gujarat State Fertilizer &amp; Chemicals Ltd. - GSFC</item>
+        <item>Gujarat State Financial Corporation - GUJSTATFINBT</item>
+        <item>Gujarat State Petronet Ltd. - GSPL</item>
+        <item>Gujarat Telephone Cable Ltd. - GUJRATTELEBT</item>
+        <item>Gujarat Themis Biosyn Ltd. - GUJTHEMISBE</item>
+        <item>Gulf Oil Corporation Ltd. - GULFCORP</item>
+        <item>GVK Power &amp; Infrastructure Ltd. - GVKPIL</item>
+        <item>Gyscoal Alloys Ltd. - GAL</item>
+        <item>Hanil Era Textiles Ltd. - HANILERA</item>
+        <item>Hanung Toys &amp; Textiles Ltd. - HANUNGBE</item>
+        <item>Haria Exports Ltd. - HARIAEXPOBE</item>
+        <item>Harig Crankshafts Ltd. - HARIGCRANKBE</item>
+        <item>Harita Seating Systems Ltd. - HARITASEAT</item>
+        <item>Harrisons Malayalam Ltd. - HARRMALAYA</item>
+        <item>Haryana Sheet Glass Ltd. - HARYANSHETBE</item>
+        <item>Hathway Cable &amp; Datacom Ltd. - HATHWAY</item>
+        <item>Hatsun Agro Products Ltd. - HATSUN</item>
+        <item>Havells India Ltd. - HAVELLS</item>
+        <item>Hawkins Cookers Ltd. - HAWKINCOOKBE</item>
+        <item>HB Stockholdings Ltd. - HBSTOCK</item>
+        <item>HBL Power Systems Ltd. - HBLPOWER</item>
+        <item>HCL Infosystems Ltd. - HCL - INSYS</item>
+        <item>HCL Technologies Ltd. - HCLTECH</item>
+        <item>HDFC Bank Ltd. - HDFCBANK</item>
+        <item>Heatshrink Technologies Ltd. - REPLENGINEBE</item>
+        <item>HEG Ltd. - HEG</item>
+        <item>Heidelberg Cement India Ltd. - HEIDELBERG</item>
+        <item>Helios and Matheson Information Technology Ltd. - HELIOSMATH</item>
+        <item>Herbertsons Ltd. - HERBETSONBT</item>
+        <item>Hercules Hoists Ltd. - HERCULES</item>
+        <item>Heritage Foods Ltd. - HERITGFOOD</item>
+        <item>Hero MotoCorp Ltd. - HEROMOTOCO</item>
+        <item>Hexa Tradex Ltd. - HEXATRADEXBE</item>
+        <item>Hexaware Technologies Ltd. - HEXAWARE</item>
+        <item>Hi Tech Gears Ltd. - HITECHGEAR</item>
+        <item>Hikal Ltd. - HIKAL</item>
+        <item>HIL Ltd. - HILBE</item>
+        <item>Hilton Metal Forging Ltd. - HILTON</item>
+        <item>Himachal Futuristic Communications Ltd. - HFCL</item>
+        <item>Himadri Chemicals &amp; Industries Ltd. - HCIL</item>
+        <item>Himalaya Granites Ltd. - HIMGRANITEBE</item>
+        <item>Himatsingka Seide Ltd. - HIMATSEIDE</item>
+        <item>Hind Industries Ltd. - HINDINDBE</item>
+        <item>Hind Rectifiers Ltd. - HIRECT</item>
+        <item>Hind Syntex Ltd. - HINDSYNTEXBE</item>
+        <item>Hindalco Industries Ltd. - HINDALCO</item>
+        <item>Hindoostan Spinning &amp; Weaving Mills Ltd.[Merged] - HINDSPGBE</item>
+        <item>Hinduja Foundries Ltd. - HINDUJAFO</item>
+        <item>Hinduja Global Solutions Ltd. - HGS</item>
+        <item>Hinduja Ventures Ltd. - HINDUJAVEN</item>
+        <item>Hindustan Composites Ltd. - HINDCOMPOS</item>
+        <item>Hindustan Construction Company Ltd. - HCC</item>
+        <item>Hindustan Copper Ltd. - HINDCOPPER</item>
+        <item>Hindustan Dorr - Oliver Ltd. - HINDDORROLBE</item>
+        <item>Hindustan Media Ventures Ltd. - HMVL</item>
+        <item>Hindustan Motors Ltd. - HINDMOTORS</item>
+        <item>Hindustan Oil Exploration Company Ltd. - HINDOILEXP</item>
+        <item>Hindustan Organic Chemicals Ltd. - HOCL</item>
+        <item>Hindustan Petroleum Corporation Ltd. - HINDPETRO</item>
+        <item>Hindustan Power Plus Ltd. - HINPOWPLUS</item>
+        <item>Hindustan Tin Works Ltd. - HINDTINWRKBE</item>
+        <item>Hindustan Unilever Ltd. - HINDUNILVR</item>
+        <item>Hindustan Zinc Ltd. - HINDZINC</item>
+        <item>Hindusthan National Glass &amp; Industries Ltd. - HINDNATGLS</item>
+        <item>Hira Ferro Alloys Ltd. - HIRAFERRO</item>
+        <item>Hitachi Home &amp; Life Solutions Ltd. - HITACHIHOM</item>
+        <item>Hitech Plast Ltd. - HITECHPLAS</item>
+        <item>HMT Ltd. - HMT</item>
+        <item>Honda Siel Power Products Ltd. - HONDAPOWERBE</item>
+        <item>Honeywell Automation India Ltd. - HONAUT</item>
+        <item>Hotel Leela Venture Ltd. - HOTELEELA</item>
+        <item>Hotel Rugby Ltd. - HOTELRUGBYBE</item>
+        <item>Hotline Glass Ltd. - HOTLINGLAS</item>
+        <item>Housing Development &amp; Infrastructure Ltd. - HDIL</item>
+        <item>Housing Development Finance Corporation Ltd. - HDFC</item>
+        <item>HOV Services Ltd. - HOVS</item>
+        <item>HSBC InvestDirect (India) Ltd. - HINVDIR</item>
+        <item>HSIL Ltd. - HSILBE</item>
+        <item>HT Media Ltd. - HTMEDIA</item>
+        <item>Hubtown Ltd. - HUBTOWN</item>
+        <item>Hybrid Financial Services Ltd. - MAFATLAFINBE</item>
+        <item>Hydro S &amp; S Industries Ltd. - HYDROSandS</item>
+        <item>I G Petrochemicals Ltd. - IGPLBE</item>
+        <item>I P Rings Ltd. - IPRINGLTD</item>
+        <item>IAG Glass Company Ltd. - INDOASAHIBE</item>
+        <item>IBP Company Ltd. - IBP</item>
+        <item>ICICI Bank Ltd. - ICICIBANK</item>
+        <item>ICICI Premium Mutual Fund Scheme - ICICIPREMBE</item>
+        <item>ICRA Ltd. - ICRA</item>
+        <item>ICSA - India Ltd. - ICSABE</item>
+        <item>IDBI Bank Ltd. - IDBI</item>
+        <item>Idea Cellular Ltd. - IDEA</item>
+        <item>IDFC Ltd. - IDFC</item>
+        <item>IFB Agro Industries Ltd. - IFBAGROBE</item>
+        <item>IFB Industries Ltd. - IFBIND</item>
+        <item>IFCI Ltd. - IFCI</item>
+        <item>IFGL Refractories Ltd. - IFGLREFRAC</item>
+        <item>Igarashi Motors India Ltd. - IGARASHI</item>
+        <item>iGATE Global Solutions Ltd. - IGS</item>
+        <item>IIFL Holdings Ltd. - IIFLBE</item>
+        <item>IL&amp;FS Engineering &amp; Construction Company Ltd. - ILandFSENGG</item>
+        <item>IL&amp;FS Investment Managers Ltd. - IVC</item>
+        <item>IL&amp;FS Transportation Networks Ltd. - ILandFSTRANS</item>
+        <item>IMP Powers Ltd. - INDLMETERBE</item>
+        <item>Impex Ferro Tech Ltd. - IMPEXFERRO</item>
+        <item>Ind Swift Ltd. - INDSWFTLTDBE</item>
+        <item>Indbank Merchant Banking Services Ltd. - INDBANKBE</item>
+        <item>India Cements Ltd. - INDIACEM</item>
+        <item>India Foils Ltd.[Amalgamted] - IFLBE</item>
+        <item>India Glycols Ltd. - INDIAGLYCO</item>
+        <item>India Lease Development Ltd. - INDIALEASEBE</item>
+        <item>India Motor Parts &amp; Accessories Ltd. - IMPAL</item>
+        <item>India Nippon Electricals Ltd. - INDNIPPON</item>
+        <item>India Polyfibres Ltd.[Merged] - INDIAPOLYBE</item>
+        <item>India Power Corporation Ltd. - DPSCLTD</item>
+        <item>India Securities Ltd. - INDIASECBE</item>
+        <item>India Steel Works Ltd. - ISIBARS</item>
+        <item>Indiabulls Financial Services Ltd.[Amalgamated] - INDIABULLS</item>
+        <item>Indiabulls Housing Finance Ltd. - IBULHSGFIN</item>
+        <item>Indiabulls Infrastructure and Power Ltd. - IBIPLBE</item>
+        <item>Indiabulls Power Ltd. - IBPOW</item>
+        <item>Indiabulls Real Estate Ltd. - IBREALEST</item>
+        <item>Indiabulls Securities Ltd. - IBSEC</item>
+        <item>Indiabulls Wholesale Services Ltd. - IBWSL</item>
+        <item>Indian Acrylics Ltd. - INDIANACRYBE</item>
+        <item>Indian Aluminium Company Ltd. - INDAL</item>
+        <item>Indian Bank - INDIANB</item>
+        <item>Indian Card Clothing Company Ltd. - INDIANCARD</item>
+        <item>Indian Hotels Company Ltd. - INDHOTEL</item>
+        <item>Indian Hume Pipe Company Ltd. - INDIANHUME</item>
+        <item>Indian Metals &amp; Ferro Alloys Ltd. - IMFA</item>
+        <item>Indian Oil Corporation Ltd. - IOC</item>
+        <item>Indian Overseas Bank - IOB</item>
+        <item>Indian Petrochemicals Corporation Ltd. - IPCL</item>
+        <item>Indian Sucrose Ltd. - OSWALSUGBE</item>
+        <item>Indian Terrain Fashions Ltd. - INDTERRAIN</item>
+        <item>Indo Biotech Foods Ltd. - INDBIOFOODBE</item>
+        <item>Indo Count Industries Ltd. - ICIL</item>
+        <item>Indo Gulf Fertilisers Ltd. - IGFLFERT</item>
+        <item>Indo Rama Synthetics (India) Ltd. - INDORAMA</item>
+        <item>Indo Rama Textiles Ltd.[Merged] - INDORAMTEX</item>
+        <item>Indo Tech Transformers Ltd. - INDOTECH</item>
+        <item>Indo Thai Securities Ltd. - INDOTHAI</item>
+        <item>Indo - National Ltd. - NIPPOBATRY</item>
+        <item>Indoco Remedies Ltd. - INDOCO</item>
+        <item>Indokem Ltd. - KHATJUNKERBE</item>
+        <item>Indosolar Ltd. - INDOSOLARBE</item>
+        <item>Indowind Energy Ltd. - INDOWINDBE</item>
+        <item>Indraprastha Gas Ltd. - IGL</item>
+        <item>Indraprastha Medical Corporation Ltd. - INDRAMEDCO</item>
+        <item>Indtradeco Ltd. - INDTRADECOBE</item>
+        <item>Indu Nissan Oxo Chemicals Industries Ltd. - INDUNISSANBE</item>
+        <item>Indus Fila Ltd. - INDUSFILABE</item>
+        <item>IndusInd Bank Ltd. - INDUSINDBK</item>
+        <item>Industrial Investment Trust Ltd. - IITL</item>
+        <item>Infinite Computer Solutions (India) Ltd. - INFINITE</item>
+        <item>Info Edge (India) Ltd. - NAUKRI</item>
+        <item>Info - Drive Software Ltd. - INFODRIVE</item>
+        <item>Infomedia Press Ltd. - INFOMEDIABE</item>
+        <item>Infosys Ltd. - INFY</item>
+        <item>ING Vysya Bank Ltd. - INGVYSYABK</item>
+        <item>Ingersoll - Rand (India) Ltd. - INGERRAND</item>
+        <item>Innovative Foods Ltd. - INOVATMARNBE</item>
+        <item>Innoventive Industries Ltd. - INNOINDBE</item>
+        <item>Inox Leisure Ltd. - INOXLEISUR</item>
+        <item>Insecticides (India) Ltd. - INSECTICID</item>
+        <item>Insilco Ltd. - INSILCO</item>
+        <item>Integra Garments And Textiles Ltd. - INTEGRABE</item>
+        <item>Integrated Enterprises (India) Ltd. - INTEGENTBE</item>
+        <item>Integrated Finance Company Ltd. - INTEGRFINBE</item>
+        <item>International Paper APPM Ltd. - IPAPPM</item>
+        <item>International Travel House Ltd. - INTLTRAVHS</item>
+        <item>Intrasoft Technologies Ltd. - ISFT</item>
+        <item>Inventure Growth &amp; Securities Ltd. - INVENTURE</item>
+        <item>IOL Chemicals and Pharmaceuticals Ltd. - IOLCPBE</item>
+        <item>IOL Netcom Ltd. - IOLN</item>
+        <item>Ion Exchange (India) Ltd. - IONEXCHANG</item>
+        <item>Ipca Laboratories Ltd. - IPCALAB</item>
+        <item>IRB Infrastructure Developers Ltd. - IRB</item>
+        <item>ISGEC Heavy Engineering Ltd. - SARASIND</item>
+        <item>ISMT Ltd. - ISMTLTD</item>
+        <item>ITC Ltd. - ITC</item>
+        <item>ITD Cementation India Ltd. - ITDCEMBE</item>
+        <item>ITI Ltd. - ITI</item>
+        <item>IVP Ltd. - IVP</item>
+        <item>IVRCL Assets &amp; Holdings Ltd. - IVRCLAH</item>
+        <item>IVRCL Ltd. - IVRCLINFRA</item>
+        <item>J B Chemicals &amp; Pharmaceuticals Ltd. - JBCHEPHARM</item>
+        <item>J D Orgochem Ltd. - JDORGOCHEMBE</item>
+        <item>J F Laboratories Ltd. - JFLABSBE</item>
+        <item>J Kumar Infraprojects Ltd. - JKIL</item>
+        <item>Jagatjit Industries Ltd. - JAGAJITINDBE</item>
+        <item>Jagran Prakashan Ltd. - JAGRAN</item>
+        <item>Jagsonpal Pharmaceuticals Ltd. - JAGSNPHARM</item>
+        <item>Jai Balaji Industries Ltd. - JAIBALAJIBE</item>
+        <item>Jai Corp Ltd. - JAICORPLTD</item>
+        <item>Jai Parabolic Springs Ltd.[Amalgamated] - JAIPARBOLIBE</item>
+        <item>Jaihind Projects Ltd. - JAIHINDPROBE</item>
+        <item>Jain Irrigation Systems Ltd. - JISLJALS</item>
+        <item>Jain Studios Ltd. - JAINSTUDIOBE</item>
+        <item>Jaiprakash Associates Ltd. - JPASSOCIAT</item>
+        <item>Jaiprakash Power Ventures Ltd. - JPPOWER</item>
+        <item>Jammu &amp; Kashmir Bank Ltd. - JandKBANK</item>
+        <item>Jamna Auto Industries Ltd. - JAMNAAUTO</item>
+        <item>Jasch Industries Ltd. - JASCHINDBE</item>
+        <item>Jay Bharat Maruti Ltd. - JAYBARMARUBE</item>
+        <item>Jay Shree Tea &amp; Industries Ltd. - JAYSREETEA</item>
+        <item>Jayant Agro Organics Ltd. - JAYAGROGN</item>
+        <item>Jayaswal Neco Industries Ltd. - JAYNECOIND</item>
+        <item>Jaykay Enterprises Ltd. - JKSYNTHETCBE</item>
+        <item>Jaypee Hotels Ltd.(Merged) - JAYPEEHOT</item>
+        <item>Jaypee Infratech Ltd. - JPINFRATEC</item>
+        <item>Jaysynth Dyestuff (India) Ltd. - JAYDYSTUFBE</item>
+        <item>JBF Industries Ltd. - JBFIND</item>
+        <item>JBM Auto Ltd. - JBMABE</item>
+        <item>JCT Electronics Ltd. - JCTELBE</item>
+        <item>JCT Ltd. - JCTBE</item>
+        <item>Jenson &amp; Nicholson (India) Ltd. - JENSONICOL</item>
+        <item>Jet Airways (India) Ltd. - JETAIRWAYS</item>
+        <item>Jeypore Sugar Company Ltd. - JEYPOREBE</item>
+        <item>Jhagadia Copper Ltd. - SWILBE</item>
+        <item>JHS Svendgaard Laboratories Ltd. - JHSBE</item>
+        <item>JIK Industries Ltd. - JIKINDBE</item>
+        <item>Jindal Cotex Ltd. - JINDCOT</item>
+        <item>Jindal Drilling &amp; Industries Ltd. - JINDRILL</item>
+        <item>Jindal Photo Ltd. - JINDALPHOTBE</item>
+        <item>Jindal Poly Films Ltd. - JINDALPOLY</item>
+        <item>Jindal Poly Investment &amp; Finance Company Ltd. - JPOLYINVST</item>
+        <item>Jindal Saw Ltd. - JINDALSAW</item>
+        <item>Jindal Stainless Ltd. - JSL</item>
+        <item>Jindal Steel &amp; Power Ltd. - JINDALSTEL</item>
+        <item>JK Cement Ltd. - JKCEMENT</item>
+        <item>JK Lakshmi Cement Ltd. - JKLAKSHMI</item>
+        <item>JK Paper Ltd. - JKPAPER</item>
+        <item>JK Pharmachem Ltd. - JKPHARMABE</item>
+        <item>JK Tyre &amp; Industries Ltd. - JKTYRE</item>
+        <item>JM Financial Ltd. - JMFINANCIL</item>
+        <item>JMC Projects (India) Ltd. - JMCPROJECT</item>
+        <item>JMT Auto Ltd. - JMTAUTOLTDBE</item>
+        <item>Jocil Ltd. - JOCIL</item>
+        <item>Jog Engineering Ltd. - VMJOGENGGBE</item>
+        <item>JSW Energy Ltd. - JSWENERGY</item>
+        <item>JSW Holdings Ltd. - JSWHL</item>
+        <item>JSW Ispat Steel Ltd. - JSWISPAT</item>
+        <item>JSW Steel Ltd. - JSWSTEEL</item>
+        <item>Jubilant Foodworks Ltd. - JUBLFOOD</item>
+        <item>Jubilant Industries Ltd. - JUBLINDS</item>
+        <item>Jubilant Life Sciences Ltd. - JUBILANT</item>
+        <item>Jumbo Bags Ltd. - JUMBOBZ</item>
+        <item>Jupiter Bioscience Ltd. - JUPITERBE</item>
+        <item>Just Dial Ltd. - JUSTDIAL</item>
+        <item>JVL Agro Industries Ltd. - JVLAGRO</item>
+        <item>Jyothy Laboratories Ltd. - JYOTHYLAB</item>
+        <item>Jyoti Structures Ltd. - JYOTISTRUC</item>
+        <item>K G Denim Ltd. - KGDENIMBE</item>
+        <item>K J International Ltd. - KJINTLBE</item>
+        <item>K S Oils Ltd. - KSOILS</item>
+        <item>K - Lifestyle &amp; Industries Ltd. - SHREEKRPOL</item>
+        <item>Kabra Extrusion Technik Ltd. - KABRAEXTRU</item>
+        <item>Kajaria Ceramics Ltd. - KAJARIACER</item>
+        <item>Kakatiya Cement Sugar &amp; Industries Ltd. - KAKATCEM</item>
+        <item>Kalindee Rail Nirman (Engineers) Ltd. - KALINDEE</item>
+        <item>Kalpataru Power Transmissions Ltd. - KALPATPOWR</item>
+        <item>Kalyani Forge Ltd. - KALYANIFRGBE</item>
+        <item>Kalyani Investment Company Ltd. - KICL</item>
+        <item>Kalyani Steels Ltd. - KSL</item>
+        <item>Kamat Hotels (India) Ltd. - KAMATHOTELBE</item>
+        <item>Kamdhenu Ispat Ltd. - KIL</item>
+        <item>Kanani Industries Ltd. - KANANIIND</item>
+        <item>Kandagiri Spinning Mills Ltd. - KANDAGIRI</item>
+        <item>Kanel Industries Ltd. - KANELOILBE</item>
+        <item>Kanoria Chemicals &amp; Industries Ltd. - KANORICHEM</item>
+        <item>Kansai Nerolac Paints Ltd. - KANSAINER</item>
+        <item>Karma Energy Ltd. - KARMAENG</item>
+        <item>Karma Energy Ltd.[Amalgamated] - KARMAENGBE</item>
+        <item>Karnataka Bank Ltd. - KTKBANK</item>
+        <item>Karur KCP Packkagings Ltd. - KARURKCP</item>
+        <item>Karur Vysya Bank Ltd. - KARURVYSYA</item>
+        <item>Karuturi Global Ltd. - KGLBE</item>
+        <item>Kaushalya Infrastructure Development Corpn.Ltd. - KAUSHALYA</item>
+        <item>Kaveri Seed Company Ltd. - KSCL</item>
+        <item>Kavveri Telecom Products Ltd. - KAVVERITEL</item>
+        <item>KCP Ltd. - KCP</item>
+        <item>KCP Sugar &amp; Industries Corporation Ltd. - KCPSUGIND</item>
+        <item>KDL Biotech Ltd. - KOPDRUGSBE</item>
+        <item>KEC International Ltd. - KEC</item>
+        <item>KEI Industries Ltd. - KEI</item>
+        <item>Kemrock Industries &amp; Exports Ltd. - KEMROCKBE</item>
+        <item>Kennametal India Ltd. - WIDIA</item>
+        <item>Kernex Microsystems (India) Ltd. - KERNEXBE</item>
+        <item>Kesar Enterprises Ltd. - KESARENTBE</item>
+        <item>Kesar Terminals &amp; Infrastructure Ltd. - KTIL</item>
+        <item>Kesoram Industries Ltd. - KESORAMINDBE</item>
+        <item>Kewal Kiran Clothing Ltd. - KKCL</item>
+        <item>Keynote Corporate Services Ltd. - KEYCORPSER</item>
+        <item>Khaitan (India) Ltd. - KHAITANLTD</item>
+        <item>Khaitan Electricals Ltd. - KHAITANELE</item>
+        <item>Khandwala Securities Ltd. - KHANDSE</item>
+        <item>Kilburn Engineering Ltd. - KILBUNENGGBE</item>
+        <item>Kilitch Drugs(I) Ltd. - KILITCH</item>
+        <item>Kinetic Engineering Ltd. - KINETICENG</item>
+        <item>Kinetic Motor Company Ltd.[Amalgamated] - KINETICMOT</item>
+        <item>Kingfisher Airlines Ltd. - KFA</item>
+        <item>Kiri Industries Ltd. - KIRIINDUS</item>
+        <item>Kirloskar Brothers Investments Ltd. - KBIL</item>
+        <item>Kirloskar Brothers Ltd. - KIRLOSBROS</item>
+        <item>Kirloskar Electric Company Ltd. - KECL</item>
+        <item>Kirloskar Ferrous Industries Ltd. - KIRLOSFERR</item>
+        <item>Kirloskar Industries Ltd. - KIRLOSIND</item>
+        <item>Kirloskar Investment &amp; Finance Ltd. - KIRLOSINVBE</item>
+        <item>Kirloskar Oil Engines Ltd. - KIRLOSENG</item>
+        <item>Kirloskar Pneumatic Ltd. - KGKHOSLABE</item>
+        <item>Kitex Garments Ltd. - KITEX</item>
+        <item>Kitply Industries Ltd. - KITPLYINDBE</item>
+        <item>KJMC Financial Services Ltd. - KJMCFINBE</item>
+        <item>KLG Systel Ltd. - KLGSYSTELBE</item>
+        <item>KLRF Ltd. - KLRFBE</item>
+        <item>KM Sugar Mills Ltd. - KMSUGARBE</item>
+        <item>KND Engineering Technologies Ltd. - KNDENGTECHBE</item>
+        <item>KNR Constructions Ltd. - KNRCONBE</item>
+        <item>Kochi Refineries Ltd.(Merged) - COCHINREFN</item>
+        <item>Kohinoor Foods Ltd. - KOHINOOR</item>
+        <item>Kojam Fininvest Ltd.[Merged] - KOJAMFIN</item>
+        <item>Kokuyo Camlin Ltd. - KOKUYOCMLN</item>
+        <item>Kolte - Patil Developers Ltd. - KOLTEPATIL</item>
+        <item>Kopran Ltd. - KOPRAN</item>
+        <item>Kotak Mahindra Bank Ltd. - KOTAKBANK</item>
+        <item>Kothari Industrial Corporation Ltd. - KOTHARINDLBE</item>
+        <item>Kothari Petrochemicals Ltd. - KOTHARIPET</item>
+        <item>Kothari Products Ltd. - KOTHARIPRO</item>
+        <item>Kothari Sugars &amp; Chemicals Ltd. - KOTARISUG</item>
+        <item>Koutons Retail India Ltd. - KOUTONS</item>
+        <item>Kovai Medical Center and Hospital Ltd. - KOVAIBE</item>
+        <item>KPIT Technologies Ltd. - KPIT</item>
+        <item>KPR Mill Ltd. - KPRMILLBE</item>
+        <item>KRBL Ltd. - KRBL</item>
+        <item>Krebs Biochemicals &amp; Industries Ltd. - KREBSBIO</item>
+        <item>Krishna Engineering Works Ltd. - KRISHNAENGBE</item>
+        <item>Kriti Industries (India) Ltd. - KRITIIND</item>
+        <item>KSB Pumps Ltd. - KSBPUMPS</item>
+        <item>KSE Ltd. - KSEBE</item>
+        <item>KSK Energy Ventures Ltd. - KSK</item>
+        <item>KSS Ltd. - KSERASERA</item>
+        <item>Kumaka Industries Ltd. - ASHOKORGBE</item>
+        <item>Kwality Ltd. - KWALITY</item>
+        <item>L&amp;T Finance Holdings Ltd. - LandTFH</item>
+        <item>La Opala RG Ltd. - LAOPALA</item>
+        <item>Labh Construction &amp; Industries Ltd. - LABHCONSTBE</item>
+        <item>Lakshmi Electrical Control Systems Ltd. - LAKSELECONBE</item>
+        <item>Lakshmi Energy &amp; Foods Ltd. - LAKSHMIEFL</item>
+        <item>Lakshmi Finance &amp; Industrial Corporation Ltd. - LAKSHMIFINBE</item>
+        <item>Lakshmi Machine Works Ltd. - LAXMIMACH</item>
+        <item>Lakshmi Mills Company Ltd. - LAKSHMIMIL</item>
+        <item>Lakshmi Precision Screws Ltd. - LAKPRE</item>
+        <item>Lakshmi Vilas Bank Ltd. - LAKSHVILAS</item>
+        <item>Lanco Industries Ltd. - LANCOIN</item>
+        <item>Lanco Infratech Ltd. - LITL</item>
+        <item>Landmark Property Development Company Ltd. - LPDC</item>
+        <item>Larsen &amp; Toubro Ltd. - LT</item>
+        <item>LCC Infotech Ltd. - LCCINFOTECBE</item>
+        <item>LD Textile Industries Ltd. - LDTEXTBE</item>
+        <item>LG Balakrishnan &amp; Bros Ltd. - LGBBROSLTD</item>
+        <item>LGB Forge Ltd. - LGBFORGEBE</item>
+        <item>Liberty Shoes Ltd. - LIBERTSHOE</item>
+        <item>LIC Housing Finance Ltd. - LICHSGFIN</item>
+        <item>Lila World Wide Ltd. - VATSMUSC</item>
+        <item>Linde India Ltd. - LINDEINDIA</item>
+        <item>LKP Finance Ltd. - LKPMERFINBE</item>
+        <item>Lloyd Electric and Engineering Ltd. - LLOYDELENGBE</item>
+        <item>Lloyds Finance Ltd. - LLOYDFINBE</item>
+        <item>Lloyds Metals &amp; Energy Ltd. - LLOYDMETALBE</item>
+        <item>LML Ltd. - LML</item>
+        <item>Logix Microsystems Ltd. - LOGIXMICROBE</item>
+        <item>Lok Housing &amp; Constructions Ltd. - LOKHSGBE</item>
+        <item>Lokesh Machines Ltd. - LOKESHMACH</item>
+        <item>Lords Chloro Alkali Ltd. - MODIALKALIBE</item>
+        <item>Lotte India Corporation Ltd. - LOTTEINDIA</item>
+        <item>Lotus Eye Hospital and Institute Ltd. - LOTUSEYE</item>
+        <item>Lovable Lingerie Ltd. - LOVABLE</item>
+        <item>LT Foods Ltd. - DAAWAT</item>
+        <item>Lumax Auto Technologies Ltd. - LUMAXTECH</item>
+        <item>Lumax Automotive Systems Ltd. - LUMAXAUTOBE</item>
+        <item>Lumax Industries Ltd. - LUMAXIND</item>
+        <item>Lupin Ltd. - LUPIN</item>
+        <item>Lyka Labs Ltd. - LYKALABS</item>
+        <item>Lypsa Gems &amp; Jewellery Ltd. - LYPSAGEMS</item>
+        <item>M M Forgings Ltd. - MMFL</item>
+        <item>M P Agro Industries Ltd. - MPAGROFERTBE</item>
+        <item>Maan Aluminium Ltd. - MAANALU</item>
+        <item>Maars Software International Ltd. - MAARSOFTWBE</item>
+        <item>Madhav Marbles &amp; Granites Ltd. - MADHAVBE</item>
+        <item>Madhucon Projects Ltd. - MADHUCONBE</item>
+        <item>Madhur Industries Ltd. - MADHURFOODBE</item>
+        <item>Madhusudan Industries Ltd. - MADSUDINDBE</item>
+        <item>Madras Aluminium Company Ltd. - MALCO</item>
+        <item>Madras Fertilizers Ltd. - MADRASFERT</item>
+        <item>Mafatlal Industries Ltd. - MAFATLAINDBE</item>
+        <item>Magma Fincorp Ltd. - MAGMA</item>
+        <item>Magnum Ventures Ltd. - MAGNUMBE</item>
+        <item>Maha Rashtra Apex Corporation Ltd. - MAHAPEXLTD</item>
+        <item>Mahanagar Telephone Nigam Ltd. - MTNL</item>
+        <item>Maharashtra Scooters Ltd. - MAHSCOOTER</item>
+        <item>Maharashtra Seamless Ltd. - MAHSEAMLES</item>
+        <item>Mahendra Petrochemicals Ltd. - MAHENDSUITBE</item>
+        <item>Mahindra &amp; Mahindra Financial Services Ltd. - MandMFIN</item>
+        <item>Mahindra &amp; Mahindra Ltd. - MandM</item>
+        <item>Mahindra CIE Automotive Ltd. - MAHINDCIE</item>
+        <item>Mahindra Holidays &amp; Resorts India Ltd. - MHRIL</item>
+        <item>Mahindra Lifespace Developers Ltd. - MAHLIFE</item>
+        <item>Mahindra Ugine Steel Company Ltd. - MAHINDUGIN</item>
+        <item>Maikaal Fibres Ltd. - MAIKALFIBRBE</item>
+        <item>Maithan Alloys Ltd. - MAITHANALLBE</item>
+        <item>Majestic Auto Ltd. - MAJESAUTO</item>
+        <item>Majestic Industries Ltd. - MAJESTINDBE</item>
+        <item>Malu Paper Mills Ltd. - MALUPAPER</item>
+        <item>Malwa Cotton Spinning Mills Ltd. - MALWACOTTBE</item>
+        <item>Man Industries (India) Ltd. - MANINDS</item>
+        <item>Man Infraconstruction Ltd. - MANINFRA</item>
+        <item>Manaksia Ltd. - MANAKSIA</item>
+        <item>Manali Petrochemicals Ltd. - MANALIPETC</item>
+        <item>Manappuram Finance Ltd. - MANAPPURAM</item>
+        <item>Mandhana Industries Ltd. - MANDHANA</item>
+        <item>Mangalam Cement Ltd. - MANGLMCEM</item>
+        <item>Mangalam Drugs and Organics Ltd. - MANGALAMBE</item>
+        <item>Mangalam Timber Products Ltd. - MANGTIMBERBE</item>
+        <item>Mangalore Chemicals &amp; Fertilizers Ltd. - MANGCHEFER</item>
+        <item>Mangalore Refinery And Petrochemicals Ltd. - MRPL</item>
+        <item>Manjeera Constructions Ltd. - MANJEERA</item>
+        <item>Manjushree Technopack Ltd. - MANJUSHREE</item>
+        <item>Manugraph India Ltd. - MANUGRAPH</item>
+        <item>Maral Overseas Ltd. - MARALOVER</item>
+        <item>Marg Ltd. - MARG</item>
+        <item>Marico Kaya Enterprises Ltd. - MAKE</item>
+        <item>Marico Ltd. - MARICO</item>
+        <item>Marksans Pharma Ltd. - MARKSANS</item>
+        <item>Maruti Suzuki India Ltd. - MARUTI</item>
+        <item>Mastek Ltd. - MASTEK</item>
+        <item>Mavi Industries Ltd. - KRISNAFILA</item>
+        <item>Mawana Sugars Ltd. - MAWANASUGBE</item>
+        <item>Mawana Sugars Ltd.(Old) - MAWANA</item>
+        <item>Max India Ltd. - MAX</item>
+        <item>Maxwell Industries Ltd. - MAXWELL</item>
+        <item>Mayur Uniquoters Ltd. - MAYURUNIQ</item>
+        <item>MBL Infrastructures Ltd. - MBLINFRA</item>
+        <item>McDowell Holdings Ltd. - MCDHOLDING</item>
+        <item>McLeod Russel (India) Ltd. - MCLEODRUSS</item>
+        <item>McNally Bharat Engineering Company Ltd. - MBECL</item>
+        <item>Medi - Caps Ltd. - MEDICAPSBE</item>
+        <item>Media Matrix Worldwide Ltd. - MMWLBE</item>
+        <item>Megasoft Ltd. - MEGASOFT</item>
+        <item>Meghmani Organics Ltd. - MEGH</item>
+        <item>Melstar Information Technology Ltd. - MELSTARBE</item>
+        <item>Mercator Ltd. - MERCATOR</item>
+        <item>Merck Ltd. - MERCK</item>
+        <item>Metalman Industries Ltd. - METALPIPEBE</item>
+        <item>Metkore Alloys &amp; Industries Ltd. - METKORE</item>
+        <item>Metrochem Industries Ltd. - METROCHEM</item>
+        <item>Metroglobal Ltd. - GLOBABOARDBE</item>
+        <item>MIC Electronics Ltd. - MICBE</item>
+        <item>Micro Inks Ltd. - MICRO</item>
+        <item>Micro Technologies (India) Ltd. - MICROTECH</item>
+        <item>Microsec Financial Services Ltd. - MICROSEC</item>
+        <item>Millennium Beer Industries Ltd.[Amalgamated] - INERTIAINDBE</item>
+        <item>Milton Plastics Ltd. - MILTONPLAS</item>
+        <item>Minda Corporation Ltd. - MINDACORPBE</item>
+        <item>Minda Industries Ltd. - MINDAIND</item>
+        <item>MindTree Ltd. - MINDTREE</item>
+        <item>MIRC Electronics Ltd. - MIRCELECTR</item>
+        <item>Mirza International Ltd. - MIRZAINT</item>
+        <item>MITCON Consultancy &amp; Engineering Services Ltd. - MITCONSM</item>
+        <item>MMTC Ltd. - MMTC</item>
+        <item>Modern Insulators Ltd. - MODINSULATBE</item>
+        <item>Modern Malleables Ltd. - MODERNMALBE</item>
+        <item>Modi Rubber Ltd. - MODIRUBBER</item>
+        <item>Modipon Ltd. - MODIPONBE</item>
+        <item>Mohit Industries Ltd. - MOHITIND</item>
+        <item>MOIL Ltd. - MOIL</item>
+        <item>Mold - Tek Technologies Ltd. - MOLDPLASTBE</item>
+        <item>Monica Electronics Ltd. - MONICAELECBE</item>
+        <item>Monnet Ispat &amp; Energy Ltd. - MONNETISPA</item>
+        <item>Monsanto India Ltd. - MONSANTO</item>
+        <item>Montari Industries Ltd. - MONTARINDBE</item>
+        <item>Morarjee Textiles Ltd. - MORARJEE</item>
+        <item>Morepen Laboratories Ltd. - MOREPENLAB</item>
+        <item>Moser Baer India Ltd. - MOSERBAER</item>
+        <item>Motherson Sumi Systems Ltd. - MOTHERSUMI</item>
+        <item>Motilal Oswal Financial Services Ltd. - MOTILALOFSBE</item>
+        <item>Motor &amp; General Finance Ltd. - MOTOGENFINBE</item>
+        <item>MphasiS Ltd. - MPHASIS</item>
+        <item>MPIL Corporation Ltd. - MATHPLATTBE</item>
+        <item>MPS Ltd. - MPSLTD</item>
+        <item>MRF Ltd. - MRF</item>
+        <item>MRO  -  TEK Ltd. - MRO - TEKBE</item>
+        <item>MSP Steel &amp; Power Ltd. - MSPLBE</item>
+        <item>MT Educare Ltd. - MTEDUCARE</item>
+        <item>MTZ Industries Ltd. - METAZINCBE</item>
+        <item>Mudra Lifestyle Ltd. - MUDRA</item>
+        <item>Mukand Engineers Ltd. - MUKANDENGG</item>
+        <item>Mukand Ltd. - MUKANDLTD</item>
+        <item>Mukat Pipes Ltd. - MUKATPIPEBE</item>
+        <item>Mukerian Papers Ltd. - MUKERPAPERBE</item>
+        <item>Mukta Arts Ltd. - MUKTAARTS</item>
+        <item>Multi  -  Arc India Ltd. - MULTIARCBE</item>
+        <item>Multi Commodity Exchange of India Ltd. - MCX</item>
+        <item>Munjal Auto Industries Ltd. - MUNJALAU</item>
+        <item>Munjal Showa Ltd. - MUNJALSHOW</item>
+        <item>Murli Industries Ltd. - MURLIINDBE</item>
+        <item>Murudeshwar Ceramics Ltd. - MURUDCERABE</item>
+        <item>Murugappa Holdings Ltd. - PARRYAGRO</item>
+        <item>Muthoot Finance Ltd. - MUTHOOTFIN</item>
+        <item>MVL Ltd. - MVLBE</item>
+        <item>Mylan Laboratories Ltd. - MATRIXLABS</item>
+        <item>Mysore Petro Chemicals Ltd. - MYSORPETROBE</item>
+        <item>N K Industries Ltd. - NKIND</item>
+        <item>Nagarjuna Fertilisers &amp; Chemicals Ltd.(Old) - NAGARFERT</item>
+        <item>Nagarjuna Oil Refinery Ltd. - NAGAROIL</item>
+        <item>Nagreeka Capital &amp; Infrastructure Ltd. - NAGREEKCAPBE</item>
+        <item>Nagreeka Exports Ltd. - NAGREEKEXP</item>
+        <item>Nahar Capital &amp; Financial Services Ltd. - NAHARCAP</item>
+        <item>Nahar Industrial Enterprises Ltd. - NAHARINDUS</item>
+        <item>Nahar Poly Films Ltd. - NAHARPOLYBE</item>
+        <item>Nahar Spinning Mills Ltd. - NAHARSPINGBE</item>
+        <item>Nakoda Ltd. - NAKODA</item>
+        <item>Nalco Water India Ltd. - NALCOCHEMBE</item>
+        <item>Nalwa Sons Investments Ltd. - NSIL</item>
+        <item>Namtech Electronic Devices Ltd. - NAMTECHELE</item>
+        <item>Nandan Denim Ltd. - NDL</item>
+        <item>Narmada Chematur Petrochemicals Ltd. - NARMDCHEMA</item>
+        <item>Narmada Gelatines Ltd. - SHAWGELTINBE</item>
+        <item>Natco Pharma Ltd. - NATCOPHARM</item>
+        <item>Nath Bio - Genes (India) Ltd. - NATHBIOGEN</item>
+        <item>Nath Pulp &amp; Paper Mills Ltd. - NATHPULP</item>
+        <item>Nath Seeds Ltd. - NATHSEED</item>
+        <item>National Aluminium Company Ltd. - NATIONALUM</item>
+        <item>National Buildings Construction Corporation Ltd. - NBCC</item>
+        <item>National Fertilizers Ltd. - NFL</item>
+        <item>National Oxygen Ltd. - NOL</item>
+        <item>National Peroxide Ltd. - NATPEROXIDBE</item>
+        <item>National Steel and Agro Industries Ltd. - NATNLSTEELBE</item>
+        <item>National Wind Power Corporation Ltd. - NEPCPAPERBE</item>
+        <item>Nava Bharat Ventures Ltd. - NBVENTURES</item>
+        <item>Navin Fluorine International Ltd. - NAVINFLUORBE</item>
+        <item>Navinon Ltd. - INDYESTUFBE</item>
+        <item>Navneet Educaton Ltd. - NAVNETEDUL</item>
+        <item>NCC Ltd. - NCC</item>
+        <item>NCL Industries Ltd. - NCLIND</item>
+        <item>Nectar Lifesciences Ltd. - NECLIFE</item>
+        <item>Neha International Ltd. - NEHAINT</item>
+        <item>Nelcast Ltd. - NELCASTBE</item>
+        <item>Nelco Ltd. - NELCO</item>
+        <item>Neo Corp International Ltd. - NEOCORPBE</item>
+        <item>NEPC India Ltd. - NEPCMICONBE</item>
+        <item>NEPC Textiles Ltd. - NEPCTEXBE</item>
+        <item>Nesco Ltd. - NESCO</item>
+        <item>Nestle India Ltd. - NESTLEIND</item>
+        <item>Net 4 India Ltd. - NET4</item>
+        <item>Netflier Finco Ltd.[Merged] - NETFINCO</item>
+        <item>Netvista Information Technology Ltd. - NETVISTAIT</item>
+        <item>Network 18 Media &amp; Investments Ltd. - NETWORK18BE</item>
+        <item>Network Ltd. - NETWORKBE</item>
+        <item>Neuland Laboratories Ltd. - NEULANDLAB</item>
+        <item>New Delhi Television Ltd. - NDTV</item>
+        <item>Next Mediaworks Ltd. - NEXTMEDIABE</item>
+        <item>Neyveli Lignite Corporation Ltd. - NEYVELILIG</item>
+        <item>NHPC Ltd. - NHPC</item>
+        <item>Nicco Corporation Ltd. - NICCOBE</item>
+        <item>NIIT Ltd. - NIITLTDBE</item>
+        <item>NIIT Technologies Ltd. - NIITTECH</item>
+        <item>Nilkamal Ltd. - NILKAMAL</item>
+        <item>Nirlon Ltd. - NIRLON</item>
+        <item>Nirma Ltd. - NIRMA</item>
+        <item>Nissan Copper Ltd. - NCOPPER</item>
+        <item>Nitco Ltd. - NITCO</item>
+        <item>Nitesh Estates Ltd. - NITESHEST</item>
+        <item>Nitin Fire Protection Industries Ltd. - NITINFIRE</item>
+        <item>Nitin Spinners Ltd. - NITINSPIN</item>
+        <item>Nitta Gelatin India Ltd. - KERALACHEM</item>
+        <item>Nivyah Infrastructure &amp; Telecom Services Ltd. - NIVINFRABE</item>
+        <item>NMDC Ltd. - NMDC</item>
+        <item>NOCIL Ltd. - NOCIL</item>
+        <item>Noesis Industries Ltd. - NOESISINDBE</item>
+        <item>Noida Toll Bridge Company Ltd. - NOIDATOLL</item>
+        <item>Norben Tea &amp; Exports Ltd. - NORBTEAEXPBE</item>
+        <item>Northgate Com Tech Ltd. - NGCT</item>
+        <item>Nova Iron &amp; Steel Ltd. - NOVAIRNSTLBE</item>
+        <item>Novartis India Ltd. - NOVARTIND</item>
+        <item>Novopan Industries Ltd. - NOVOPANIND</item>
+        <item>NRB Bearings Ltd. - NRBBEARING</item>
+        <item>NRB Industrial Bearings Ltd. - NIBLBE</item>
+        <item>NRC Ltd. - NRCBE</item>
+        <item>NSL Ltd. - NSLBE</item>
+        <item>NTPC Ltd. - NTPC</item>
+        <item>Nu Tek India Ltd. - NUTEKBE</item>
+        <item>Nuchem Ltd. - NUCHEMBE</item>
+        <item>Nucleus Software Exports Ltd. - NUCLEUS</item>
+        <item>Oberoi Realty Ltd. - OBEROIRLTY</item>
+        <item>OCL India Ltd. - OCL</item>
+        <item>OCL Iron &amp; Steel Ltd. - OISLBE</item>
+        <item>Octav Investments Ltd.[Amalgamated] - OCTAV</item>
+        <item>Oil And Natural Gas Corporation Ltd. - ONGC</item>
+        <item>Oil Country Tubular Ltd. - OILCOUNTUB</item>
+        <item>Oil India Ltd. - OIL</item>
+        <item>OM Metals Infraprojects Ltd. - OMMETALS</item>
+        <item>Omax Autos Ltd. - OMAXAUTOBE</item>
+        <item>Omaxe Ltd. - OMAXE</item>
+        <item>Omkar Speciality Chemicals Ltd. - OMKARCHEM</item>
+        <item>Omnitech InfoSolutions Ltd. - OMNITECHBE</item>
+        <item>Onelife Capital Advisors Ltd. - ONELIFECAP</item>
+        <item>Onida Savak Ltd. - ONIDASAVAKBE</item>
+        <item>OnMobile Global Ltd. - ONMOBILE</item>
+        <item>Onward Technologies Ltd. - ONWARDTECBE</item>
+        <item>Opal Luxury Time Products Ltd. - OPALSM</item>
+        <item>Optel Telecommunications Ltd. - OPTELCOMMBE</item>
+        <item>Opto Circuits India Ltd. - OPTOCIRCUI</item>
+        <item>Oracle Financial Services Software Ltd. - OFSS</item>
+        <item>Orbit Corporation Ltd. - ORBITCORP</item>
+        <item>Orbit Exports Ltd. - ORBTEXP</item>
+        <item>Orchid Chemicals &amp; Pharmaceuticals Ltd. - ORCHIDCHEM</item>
+        <item>Org Informatics Ltd. - ORGINFO</item>
+        <item>Organon (India) Pvt. Ltd. - INFARINDIA</item>
+        <item>Oricon Enterprises Ltd. - ORIENTCONT</item>
+        <item>Orient Abrasives Ltd. - ORIENTABRA</item>
+        <item>Orient Bell Ltd. - ORIENTBELLBE</item>
+        <item>Orient Cement Ltd. - ORIENTCEM</item>
+        <item>Orient Green Power Company Ltd. - GREENPOWERBE</item>
+        <item>Orient Information Technology Ltd.[Merged] - ORIENTINFO</item>
+        <item>Orient Paper &amp; Industries Ltd. - ORIENTPPR</item>
+        <item>Orient Press Ltd. - ORIENTLTD</item>
+        <item>Orient Refractories Ltd. - ORIENTREF</item>
+        <item>Oriental Bank of Commerce - ORIENTBANK</item>
+        <item>Oriental Carbon &amp; Chemicals Ltd. - ORIENTCARBBE</item>
+        <item>Oriental Hotels Ltd. - ORIENTHOT</item>
+        <item>Oriental Trimex Ltd. - ORIENTALTLBE</item>
+        <item>Orissa Minerals Development Company Ltd. - ORISSAMINEBE</item>
+        <item>Oswal Agro Mills Ltd. - OSWALAGROBE</item>
+        <item>Oswal Green Tech Ltd. - BINDALAGRO</item>
+        <item>Oswal Minerals Ltd. - OSWALMIN</item>
+        <item>Oswal Spinning &amp; Weaving Mills Ltd. - OSWALSPGBE</item>
+        <item>Oudh Sugar Mills Ltd. - OUDHSUG</item>
+        <item>Oxides &amp; Specialities Ltd. - HERDIOXIDEBE</item>
+        <item>Pacific Industries Ltd. - PACIFICINDBE</item>
+        <item>Padmalaya Telefilms Ltd. - PADMALAYATBE</item>
+        <item>PAE Ltd. - PAELBE</item>
+        <item>Page Industries Ltd. - PAGEIND</item>
+        <item>Pal Credit &amp; Capital Ltd. - PALCREDITBE</item>
+        <item>PALCO Ltd. - PENNARALUMBE</item>
+        <item>Palred Technologies Ltd. - PALRED</item>
+        <item>Pan India Corporation Ltd. - SRGINFOTECBE</item>
+        <item>Pan India Corporation Ltd. - SRG</item>
+        <item>Panacea Biotec Ltd. - PANACEABIO</item>
+        <item>Panama Petrochem Ltd. - PANAMAPET</item>
+        <item>Panasonic Appliances India Company Ltd. - PANASONICBE</item>
+        <item>Panasonic AVC Networks India Co. Ltd. - PAVCI</item>
+        <item>Panasonic Carbon India Co. Ltd. - PANCARBON</item>
+        <item>Panasonic Energy India Company Ltd. - LAKHNNATNL</item>
+        <item>Panchmahal Cement Ltd. - PANCHMACEMBE</item>
+        <item>Panchmahal Steel Ltd. - PANCHMSTELBE</item>
+        <item>Panchsheel Organics Ltd. - PANCHSHEEL</item>
+        <item>Panoramic Universal Ltd. - PANORAMUNI</item>
+        <item>Pantaloons Fashion &amp; Retail Ltd. - PFRL</item>
+        <item>Panyam Cements &amp; Mineral Industries Ltd. - PANYAMCEMBE</item>
+        <item>Paper Products Ltd. - PAPERPROD</item>
+        <item>Parabolic Drugs Ltd. - PARABDRUGS</item>
+        <item>Paramount Communications Ltd. - PARACABLESBE</item>
+        <item>Paramount Printpackaging Ltd. - PARAPRINTBE</item>
+        <item>Paras Petrofils Ltd. - PARASPETROBE</item>
+        <item>Parasrampuria Industries Ltd. - PARASINDBE</item>
+        <item>Parekh Aluminex Ltd. - PARALBZ</item>
+        <item>Parekh Platinum Ltd. - PAREKHPLATBE</item>
+        <item>Parenteral Drugs (India) Ltd. - PDPL</item>
+        <item>Parrys Sugar Industries Ltd. - PARRYSUGARBE</item>
+        <item>Parsvnath Developers Ltd. - PARSVNATH</item>
+        <item>Pasupati Acrylon Ltd. - PASUPTACRYBE</item>
+        <item>Pasupati Fabrics Ltd. - PASUPATI</item>
+        <item>Pasupati Spinning &amp; Weaving Mills Ltd. - PASUPATSPGBE</item>
+        <item>Patel Engineering Ltd. - PATELENGBE</item>
+        <item>Patel Integrated Logistics Ltd. - PATINTLOG</item>
+        <item>Patheja Forgings &amp; Auto Parts Manufacturers Ltd. - PATHEJAFORBE</item>
+        <item>Patni Computer Systems Ltd. - PATNI</item>
+        <item>Patspin India Ltd. - PATSPINLTD</item>
+        <item>PBA Infrastructure Ltd. - PBAINFRABE</item>
+        <item>PC Jeweller Ltd. - PCJEWELLER</item>
+        <item>Peacock Industries Ltd. - PILINDBE</item>
+        <item>Pearl Engineering Polymers Ltd. - PEPLBE</item>
+        <item>Pearl Global Industries Ltd. - PGIL</item>
+        <item>Pearl Global Ltd. - PEARLGLOBL</item>
+        <item>Pearl Polymers Ltd. - PEARLPOLY</item>
+        <item>Peninsula Land Ltd. - PENINLAND</item>
+        <item>Pennar Industries Ltd. - PENIND</item>
+        <item>Pentamedia Graphics Ltd. - PENTSFWARE</item>
+        <item>Pentasoft Technologies Ltd.[Amalgamated] - PENTACOMMU</item>
+        <item>Peria Karamalai Tea &amp; Produce Company Ltd. - PERIATEABE</item>
+        <item>Permanent Magnets Ltd. - PERMAGNETBE</item>
+        <item>Persistent Systems Ltd. - PERSISTENT</item>
+        <item>Pertech Computers Ltd. - PCLBE</item>
+        <item>Petron Engineering Construction Ltd. - PETRONENGG</item>
+        <item>Petronet LNG Ltd. - PETRONET</item>
+        <item>Pfizer Ltd. - PFIZER</item>
+        <item>PG Electroplast Ltd. - PGEL</item>
+        <item>Phil Corporation Ltd. - PHILCORPBE</item>
+        <item>Phillips Carbon Black Ltd. - PHILIPCARB</item>
+        <item>Phoenix International Ltd. - PHOENXINTL</item>
+        <item>Phoenix Lamps Ltd. - PHOENIXLL</item>
+        <item>Phoenix Mills Ltd. - PHOENIXLTD</item>
+        <item>PI Industries Ltd. - PIIND</item>
+        <item>Piccadily Sugar and Allied Industries Ltd. - PICCADSUGBE</item>
+        <item>Pidilite Industries Ltd. - PIDILITIND</item>
+        <item>Pilani Investment and Industries Corporation Ltd. - PILANIINVBE</item>
+        <item>Pioneer Distilleries Ltd. - PIONDISTBE</item>
+        <item>Pipavav Defence &amp; Offshore Engineering Company Ltd. - PIPAVAVDOC</item>
+        <item>Piramal Enterprises Ltd. - PEL</item>
+        <item>Piramal Glass Ltd. - PIRGLASS</item>
+        <item>Piramal Phytocare Ltd. - PIRPHYTO</item>
+        <item>Pitti Laminations Ltd. - PITTILAMBE</item>
+        <item>Plastiblends India Ltd. - PLASTIBLEN</item>
+        <item>Plethico Pharmaceuticals Ltd. - PLETHICOBE</item>
+        <item>PNB Gilts Ltd. - PNBGILTS</item>
+        <item>Pochiraju Industries Ltd. - POCHIRAJUBE</item>
+        <item>Poddar Pigments Ltd. - PODARPIGMTBE</item>
+        <item>Polar Industries Ltd. - POLARINDBE</item>
+        <item>Polaris Financial Technology Ltd. - POLARIS</item>
+        <item>Poly Medicure Ltd. - POLYMED</item>
+        <item>Polychem Ltd. - POLYCHEM</item>
+        <item>Polyplex Corporation Ltd. - POLYPLEX</item>
+        <item>Pondy Oxides &amp; Chemicals Ltd. - PONDYOXIDE</item>
+        <item>Ponni Sugars (Erode) Ltd. - PONNIERODEBE</item>
+        <item>Power Finance Corporation Ltd. - PFC</item>
+        <item>Power Grid Corporation of India Ltd. - POWERGRID</item>
+        <item>PPAP Automotive Ltd. - PPAP</item>
+        <item>Pradip Overseas Ltd. - PRADIP</item>
+        <item>Prag Bosimi Synthetics Ltd. - PRAGBOSIMIBE</item>
+        <item>Praj Industries Ltd. - PRAJIND</item>
+        <item>Prajay Engineers Syndicate Ltd. - PRAENG</item>
+        <item>Prakash Constrowell Ltd. - PRAKASHCONBE</item>
+        <item>Prakash Industries Ltd. - PRAKASH</item>
+        <item>Prakash Steelage Ltd. - PRAKASHSTL</item>
+        <item>Pratibha Industries Ltd. - PRATIBHA</item>
+        <item>Precision Wires India Ltd. - PRECWIRE</item>
+        <item>Precot Meridian Ltd. - PRECOT</item>
+        <item>Premier Ltd. - PREMIER</item>
+        <item>Premier Polyfilm Ltd. - PREMIERPOLBE</item>
+        <item>Pressman Advertising Ltd. - PRESSMN</item>
+        <item>Prestige Estates Projects Ltd. - PRESTIGE</item>
+        <item>Pricol Ltd. - PRICOL</item>
+        <item>Prime Focus Ltd. - PFOCUS</item>
+        <item>Prime Securities Ltd. - PRIMESECUBE</item>
+        <item>Prism Cement Ltd. - PRISMCEMBE</item>
+        <item>Prithvi Information Solutions Ltd. - PRITHVIBE</item>
+        <item>Prithvi Softech Ltd. - PRITHVISOF</item>
+        <item>Pritish Nandy Communications Ltd. - PNCBE</item>
+        <item>Priya Ltd. - PRIYADYESBE</item>
+        <item>Priyadarsini Ltd. - PSMSPGMILLBE</item>
+        <item>Procter &amp; Gamble Hygiene &amp; Healthcare Ltd. - PGHH</item>
+        <item>Provogue (India) Ltd. - PROVOGEBE</item>
+        <item>Prozone Intu Properties Ltd. - PROZONECSC</item>
+        <item>PSL Ltd. - PSL</item>
+        <item>PTC India Financial Services Ltd. - PFS</item>
+        <item>PTC India Ltd. - PTC</item>
+        <item>PTL Enterprises Ltd. - PTLBE</item>
+        <item>Pudumjee Industries Ltd. - PDUMJEIND</item>
+        <item>Pudumjee Pulp &amp; Paper Mills Ltd. - PDUMJEPULP</item>
+        <item>Punj Lloyd Ltd. - PUNJLLOYDBE</item>
+        <item>Punjab &amp; Sind Bank - PSB</item>
+        <item>Punjab Alkalies &amp; Chemicals Ltd. - PUNALKALIBE</item>
+        <item>Punjab Chemicals and Crop Protection Ltd. - PUNJABCHEM</item>
+        <item>Punjab Communications Ltd. - PUNJCOMMU</item>
+        <item>Punjab National Bank - PNB</item>
+        <item>Punjab Tractors Ltd. (Merged) - PUNJABTRAC</item>
+        <item>Punjab Woolcombers Ltd. - PUNJABWOOLBE</item>
+        <item>Puravankara Projects Ltd. - PURVA</item>
+        <item>PVP Ventures Ltd. - PVP</item>
+        <item>PVR Ltd. - PVR</item>
+        <item>Pyramid Saimira Theatre Ltd. - PSTL</item>
+        <item>Quintegra Solutions Ltd. - QUINTEGRABE</item>
+        <item>R Systems International Ltd. - RSYSTEMS</item>
+        <item>Radaan Mediaworks (I) Ltd. - RADAANBE</item>
+        <item>Radha Madhav Corporation Ltd. - RMCL</item>
+        <item>Radico Khaitan Ltd. - RADICO</item>
+        <item>Rai Saheb Rekhchand Mohota Spg. &amp; Wvg. Mills Ltd. - RAIREKMOH</item>
+        <item>Rain Calcining Ltd. - RAINCALCIN</item>
+        <item>Rain Industries Ltd. - RAIN</item>
+        <item>Rainbow Papers Ltd. - RAINBOWPAP</item>
+        <item>Raj Oil Mills Ltd. - RAJOILBE</item>
+        <item>Raj Rayon Industries Ltd. - RAJRAYONBE</item>
+        <item>Raj Television Network Ltd. - RAJTV</item>
+        <item>Rajapalayam Mills Ltd. - RAJPALAYAM</item>
+        <item>Rajasthan Petro Synthetics Ltd. - RAJASPETRO</item>
+        <item>Rajdarshan Industries Ltd. - ARENTERPBE</item>
+        <item>Rajesh Exports Ltd. - RAJESHEXPO</item>
+        <item>Rajshree Sugars &amp; Chemicals Ltd. - RAJSREESUG</item>
+        <item>Rajvir Industries Ltd. - RAJVIR</item>
+        <item>Rallis India Ltd. - RALLIS</item>
+        <item>Rama Petrochemicals Ltd. - RAMAPETROBE</item>
+        <item>Rama Phosphates Ltd. - RAMAPHOSPBE</item>
+        <item>Rama Vision Ltd. - RAMAVISIONBE</item>
+        <item>Ramco Industries Ltd. - RAMCOIND</item>
+        <item>Ramco Systems Ltd. - RAMCOSYS</item>
+        <item>Ramgopal Polytex Ltd. - RAMGOPOLYBE</item>
+        <item>Ramkrishna Forgings Ltd. - RKFORGEBE</item>
+        <item>Ramky Infrastructure Ltd. - RAMKY</item>
+        <item>Ramsarup Industries Ltd. - RAMSARUPBE</item>
+        <item>Rana Sugars Ltd. - RANASUGBE</item>
+        <item>Ranbaxy Laboratories Ltd. - RANBAXY</item>
+        <item>Rane (Madras) Ltd. - RML</item>
+        <item>Rane Brake Lining Ltd. - RBLBE</item>
+        <item>Rane Brake Linings Ltd.(Old) - RANEBRAKE</item>
+        <item>Rane Engine Valve Ltd. - RANEENGINEBE</item>
+        <item>Rane Engine Valves Ltd.(Old) - REVL</item>
+        <item>Rane Holdings Ltd. - RANEHOLDINBE</item>
+        <item>Rank Industries Ltd. - RANKAQUABE</item>
+        <item>Ranklin Solutions Ltd. - RANKLINBE</item>
+        <item>Ras Propack Lamipack Ltd. [Amalgamated] - RASLAMIPAK</item>
+        <item>Rashtriya Chemicals &amp; Fertilizers Ltd. - RCF</item>
+        <item>Rasoya Proteins Ltd. - RASOYPR</item>
+        <item>Ratnamani Metals &amp; Tubes Ltd. - RATNAMANI</item>
+        <item>Ravalgaon Sugar Farm Ltd. - RAVALSUGAR</item>
+        <item>Ravi Kumar Distilleries Ltd. - RKDL</item>
+        <item>RayBan Sun Optics India Ltd. - BAUSCHLOMB</item>
+        <item>Raymond Ltd. - RAYMOND</item>
+        <item>Recron Synthetics Ltd. - RAYMONDSYNBE</item>
+        <item>Redington (India) Ltd. - REDINGTON</item>
+        <item>Refex Refrigerants Ltd. - REFEX</item>
+        <item>Regency Ceramics Ltd. - REGENCERAMBE</item>
+        <item>REI Agro Ltd. - REIAGROLTDBE</item>
+        <item>REI Six Ten Retail Ltd. - REISIXTENBE</item>
+        <item>Relaxo Footwears Ltd. - RELAXO</item>
+        <item>Reliance Broadcast Network Ltd. - RBN</item>
+        <item>Reliance Capital Ltd. - RELCAPITAL</item>
+        <item>Reliance Capital Ventures Ltd. - RCAPVL</item>
+        <item>Reliance Communications Ltd. - RCOM</item>
+        <item>Reliance Energy Ventures Ltd. - RENVL</item>
+        <item>Reliance Industrial InfraStructure Ltd. - RIIL</item>
+        <item>Reliance Industries Ltd. - RELIANCE</item>
+        <item>Reliance Infrastructure Ltd. - RELINFRA</item>
+        <item>Reliance MediaWorks Ltd. - RELMEDIA</item>
+        <item>Reliance Natural Resources Ltd. - RNRL</item>
+        <item>Reliance Petroleum Ltd.(Merged) - RPL</item>
+        <item>Reliance Power Ltd. - RPOWER</item>
+        <item>Religare Enterprises Ltd. - RELIGARE</item>
+        <item>Remsons Industries Ltd. - REMSONSIND</item>
+        <item>Renaissance Jewellery Ltd. - RJL</item>
+        <item>Repco Home Finance Ltd. - REPCOHOME</item>
+        <item>Repro India Ltd. - REPRO</item>
+        <item>Responsive Industries Ltd. - RESPONINDBE</item>
+        <item>Resurgere Mines &amp; Minerals India Ltd. - RMMILBE</item>
+        <item>Revathi Equipment Ltd. - REVATHI</item>
+        <item>Rhodia Specialty Chemicals India Ltd. - ALBRMORARJ</item>
+        <item>Rico Auto Industries Ltd. - RICOAUTO</item>
+        <item>Rishi Techtex Ltd. - RISHIPACKBE</item>
+        <item>RMG Alloy Steel Ltd. - REMIMETALBE</item>
+        <item>Rohit Ferro - Tech Ltd. - ROHITFERRO</item>
+        <item>Rollatainers Ltd. - ROLATANBE</item>
+        <item>Rolta India Ltd. - ROLTA</item>
+        <item>Rossell India Ltd. - ROSSELLINDBE</item>
+        <item>Royal Cushion Vinyl Products Ltd. - ROYALCUSHNBE</item>
+        <item>Royal Orchid Hotels Ltd. - ROHLTDBE</item>
+        <item>RPG Cables Ltd.[Merged] - RPGCABLES</item>
+        <item>RPG Life Sciences Ltd. - RPGLIFE</item>
+        <item>RPG Transmission Ltd.[Merged] - RPGTLTD</item>
+        <item>RPP Infra Projects Ltd. - RPPINFRA</item>
+        <item>RS Software (India) Ltd. - RSSOFTWARE</item>
+        <item>RSWM Ltd. - RSWM</item>
+        <item>Rubfila International Ltd. - RUBFILINTLBE</item>
+        <item>Ruby Mills Ltd. - RUBYMILLS</item>
+        <item>Ruchi Infrastructure Ltd. - RUCHINFRABE</item>
+        <item>Ruchi Soya Industries Ltd. - RUCHISOYA</item>
+        <item>Ruchi Strips &amp; Alloys Ltd. - RUCHISTRIPBE</item>
+        <item>Ruchira Papers Ltd. - RUCHIRABE</item>
+        <item>Rupa &amp; Company Ltd. - RUPA</item>
+        <item>Rural Electrification Corporation Ltd. - RECLTD</item>
+        <item>Rushil Decor Ltd. - RUSHILBE</item>
+        <item>S Kumars Nationwide Ltd. - SKUMARSYNF</item>
+        <item>S Mobility Ltd. - SMOBILITYBE</item>
+        <item>S&amp;S Industries &amp; Enterprises Ltd. - SandSINDBE</item>
+        <item>Sabero Organics Gujarat Ltd. - SABERORGAN</item>
+        <item>Sadbhav Engineering Ltd. - SADBHAV</item>
+        <item>Sagar Cements Ltd. - SAGCEMBE</item>
+        <item>Sah Petroleums Ltd. - SAHPETRO</item>
+        <item>Sai Service Station Ltd. - SAISERVICEBE</item>
+        <item>Saksoft Ltd. - SAKSOFTBE</item>
+        <item>Sakthi Finance Ltd. - SAKTHIFIN</item>
+        <item>Sakthi Sugars Ltd. - SAKHTISUG</item>
+        <item>Sakuma Exports Ltd. - SAKUMABE</item>
+        <item>SAL Steel Ltd. - SALSTEELBE</item>
+        <item>Salona Cotspin Ltd. - SALONACOT</item>
+        <item>Salora International Ltd. - SALORAINTLBE</item>
+        <item>Sam Industries Ltd. - SAMINDUS</item>
+        <item>Sambandam Spinning Mills Ltd. - SAMBANDAM</item>
+        <item>Sambhaav Media Ltd. - SAMBHAAV</item>
+        <item>Samruddhi Cement Ltd.[Merged] - SAMRUDDHI</item>
+        <item>Samtel Color Ltd. - SAMTELBE</item>
+        <item>Samtel India Ltd. - SAMTELTDBE</item>
+        <item>Sanco Industries Ltd. - SANCOSM</item>
+        <item>Sandesh Ltd. - SANDESH</item>
+        <item>Sangam (India) Ltd. - SANGAMIND</item>
+        <item>Sanghi Industries Ltd. - SANGHIINDBE</item>
+        <item>Sanghi Polyesters Ltd. - SANGHIPOLY</item>
+        <item>Sanghvi Forging &amp; Engineering Ltd. - SANGHVIFORBE</item>
+        <item>Sanghvi Movers Ltd. - SANGHVIMOVBE</item>
+        <item>Sanofi India Ltd. - SANOFI</item>
+        <item>Sanwaria Agro Oils Ltd. - SANWARIA</item>
+        <item>Sarda Energy &amp; Minerals Ltd. - SARDAEN</item>
+        <item>Saregama India Ltd. - SAREGAMABE</item>
+        <item>Sarla Performance Fibers Ltd. - SARLAPOLY</item>
+        <item>Sarthak Industries Ltd. - SARTHAKIND</item>
+        <item>Sasken Communication Technologies Ltd. - SASKEN</item>
+        <item>Sathavahana Ispat Ltd. - SATHAISPATBE</item>
+        <item>Satyam Computer Services Ltd.(Merged) - SATYAMCOMP</item>
+        <item>Saurashtra Cements Ltd. - SAURASHCEMBE</item>
+        <item>Saurashtra Paper &amp; Board Mills Ltd. - SAURASTPPRBE</item>
+        <item>Savera Industries Ltd. - SAVERA</item>
+        <item>Savita Oil Technologies Ltd. - SOTL</item>
+        <item>Sayaji Hotels Ltd. - SAYAJIHOTLBE</item>
+        <item>SB&amp;T International Ltd. - SBandTINTL</item>
+        <item>Schneider Electric Infrastructure Ltd. - SCHNEIDER</item>
+        <item>Scintilla Software Technology Ltd. - SCINTSOFT</item>
+        <item>SE Investments Ltd. - SEINV</item>
+        <item>SE Power Ltd. - SEPOWER</item>
+        <item>Seamec Ltd. - SEAMECLTD</item>
+        <item>Sejal Glass Ltd. - SEZALBE</item>
+        <item>SEL Manufacturing Company Ltd. - SELMCL</item>
+        <item>Selan Exploration Technology Ltd. - SELAN</item>
+        <item>Serene Industries Ltd. - SERENDYSTFBE</item>
+        <item>Servalakshmi Paper Ltd. - SERVALLBE</item>
+        <item>Sesa Sterlite Ltd. - SSLT</item>
+        <item>Seshasayee Paper &amp; Boards Ltd. - SESHAPAPER</item>
+        <item>Seya Industries Ltd. - SRIMANORGBE</item>
+        <item>Shaan Interwell (India) Ltd. - SHAANINTERBE</item>
+        <item>Shah Alloys Ltd. - SHAHALLOYSBE</item>
+        <item>Shakti Pumps (India) Ltd. - SHAKTIPUMP</item>
+        <item>Shalimar Paints Ltd. - SHALPAINTS</item>
+        <item>Shamken Multifab Ltd. - SHAMKNFAB</item>
+        <item>Shamken Spinners Ltd. - SHAMKNSPIN</item>
+        <item>Shanthi Gears Ltd. - SHANTIGEAR</item>
+        <item>Shardul Securities Ltd. - SHRIYAMSEC</item>
+        <item>Sharon Bio - Medicine Ltd. - SHARONBIO</item>
+        <item>Sharp India Ltd. - KALYANISHP</item>
+        <item>Sharyans Resources Ltd. - SHARRESLTD</item>
+        <item>Shasun Pharmaceuticals Ltd. - SHASUNPHAR</item>
+        <item>Shaw Wallace &amp; Company Ltd. (Merged) - SHAWALLACEBE</item>
+        <item>Shekhawati Poly Yarn Ltd. - SPYL</item>
+        <item>Shetron Ltd. - SHETRONBE</item>
+        <item>Shilpa Medicare Ltd. - SHILPAMED</item>
+        <item>Shilpi Cable Technologies Ltd. - SHILPI</item>
+        <item>Shipping Corporation of India Ltd. - SCI</item>
+        <item>Shirpur Gold Refinery Ltd. - SHIRPUR - G</item>
+        <item>Shiv - Vani Oil &amp; Gas Exploration Services Ltd. - SHIV - VANIBE</item>
+        <item>Shiva Texyarn Ltd. - SHIVTEXBE</item>
+        <item>Shivam Autotech Ltd. - SHIVAMAUTO</item>
+        <item>Shoppers Stop Ltd. - SHOPERSTOP</item>
+        <item>Shree Ashtavinayak Cine Vision Ltd. - SHREEASHTA</item>
+        <item>Shree Cements Ltd. - SHREECEM</item>
+        <item>Shree Digvijay Cement Company Ltd. - SHREDIGCEMBE</item>
+        <item>Shree Ganesh Forgings Ltd. - SGFLBE</item>
+        <item>Shree Ganesh Jewellery House (I) Ltd. - SGJHL</item>
+        <item>Shree Precoated Steels Ltd. - SHPRE</item>
+        <item>Shree Rajasthan Syntex Ltd. - SHRERAJSYNBE</item>
+        <item>Shree Rama Multi - Tech Ltd. - SHREERAMABE</item>
+        <item>Shree Rama Newsprint Ltd. - RAMANEWS</item>
+        <item>Shree Renuka Sugars Ltd. - RENUKA</item>
+        <item>Shreeji Phosphate Ltd. - SATYAMCEMBE</item>
+        <item>Shrenuj &amp; Company Ltd. - SHRENUJ</item>
+        <item>Shreyans Industries Ltd. - SHREYANINDBE</item>
+        <item>Shreyas Shipping &amp; Logistics Ltd. - SHREYAS</item>
+        <item>Shri Aster Silicates Ltd. - SHRIASTERBE</item>
+        <item>Shri Dinesh Mills Ltd. - SHRIDINESHBE</item>
+        <item>Shri Lakshmi Cotsyn Ltd. - SHLAKSHMI</item>
+        <item>Shri Matre Power &amp; Infrastructure Ltd. - SHAKTIGAS</item>
+        <item>Shri Ramrupai Balaji Steels Ltd.[Merged] - BALASTEELSBE</item>
+        <item>Shriram City Union Finance Ltd. - SHRIRAMCIT</item>
+        <item>Shriram EPC Ltd. - SHRIRAMEPC</item>
+        <item>Shriram Transport Finance Company Ltd. - SRTRANSFIN</item>
+        <item>Shristi Infrastructure Development Corporation Ltd. - PEERABASANBE</item>
+        <item>Shukra Jewellery Ltd. - SHUKRADIAMBE</item>
+        <item>Shyam Telecom Ltd. - SHYAMTEL</item>
+        <item>SI Group  -  India Ltd. - SIGROUPIND</item>
+        <item>Sicagen India Ltd. - SICAGEN</item>
+        <item>Sical Logistics Ltd. - SICALBE</item>
+        <item>Siddhartha Tubes Ltd. - SIDDHATUBEBE</item>
+        <item>Siemens Ltd. - SIEMENS</item>
+        <item>Signet Industries Ltd. - SIGNETIND</item>
+        <item>SIL Business Enterprises Ltd. - SNOWCEMIND</item>
+        <item>SIL Investments Ltd. - SILINVBE</item>
+        <item>Silicon Valley Infotech Ltd. - PRASGLOFINBE</item>
+        <item>Silverline Technologies Ltd. - SILVERLINE</item>
+        <item>Simbhaoli Sugars Ltd. - SIMBHSUGARBE</item>
+        <item>Simplex Castings Ltd. - SIMPLEXCAS</item>
+        <item>Simplex Infrastructures Ltd. - SIMPLEXINF</item>
+        <item>Simplex Projects Ltd. - SIMPLEX</item>
+        <item>Singer India Ltd. - SINGERBE</item>
+        <item>Sintex Industries Ltd. - SINTEX</item>
+        <item>Siris Ltd. - SIRISBE</item>
+        <item>Sirpur Paper Mills Ltd. - SIRPAPERBE</item>
+        <item>Sita Shree Food Products Ltd. - SITASHREEBE</item>
+        <item>SITI Cable Network Ltd. - SITICABLEBE</item>
+        <item>Siyaram Silk Mills Ltd. - SIYSIL</item>
+        <item>SJVN Ltd. - SJVN</item>
+        <item>SKF India Ltd. - SKFINDIA</item>
+        <item>SKIL Infrastructure Ltd. - SKIL</item>
+        <item>SKM Egg Products Export (India) Ltd. - SKMEGGPROD</item>
+        <item>SKS Microfinance Ltd. - SKSMICRO</item>
+        <item>Skyline NEPC Ltd. - DAMANIAAIRBE</item>
+        <item>SM Dyechem Ltd. - SMDYECHEM</item>
+        <item>Smartlink Network Systems Ltd. - SMARTLINK</item>
+        <item>SML Isuzu Ltd. - SMLISUZUBE</item>
+        <item>SMS Pharmaceuticals Ltd. - SMSPHARMA</item>
+        <item>SMZS Chemicals Ltd. - SMZSCHEM</item>
+        <item>SNS Textiles Ltd. - SUZLONFIBRBE</item>
+        <item>Sobha Developers Ltd. - SOBHA</item>
+        <item>Software Technology Group International Ltd. - SOFTTECHGR</item>
+        <item>SOL Pharmaceuticals Ltd. - SOLPHARMABE</item>
+        <item>Solar Industries India Ltd. - SOLARINDSBE</item>
+        <item>Solectron EMS India Ltd.[Amalgamated] - SOLEMS</item>
+        <item>Som Datt Finance Corporation Ltd. - SOMDUTTFINBE</item>
+        <item>Som Distilleries &amp; Breweries Ltd. - SDBL</item>
+        <item>Soma Textiles &amp; Industries Ltd. - SOMATEXBE</item>
+        <item>Somani Cement Company Ltd. - SOMANICEMBE</item>
+        <item>Somany Ceramics Ltd. - SOMANYCERA</item>
+        <item>Sona Koyo Steering Systems Ltd. - SONASTEER</item>
+        <item>Sonata Software Ltd. - SONATSOFTWBE</item>
+        <item>South Asian Petrochem Ltd.[Merged] - SAPL</item>
+        <item>South India Paper Mills Ltd. - SIPAPERBE</item>
+        <item>South Indian Bank Ltd. - SOUTHBANK</item>
+        <item>Southern Ispat &amp; Energy Ltd. - SOUISPATBE</item>
+        <item>Southern Petrochemicals Industries Corporation Ltd. - SPIC</item>
+        <item>Spanco Ltd. - SPANCO</item>
+        <item>Spartek Ceramics India Ltd. - SPARTEKBE</item>
+        <item>Speciality Restaurants Ltd. - SPECIALITY</item>
+        <item>Spectacle Ventures Ltd. - SPECTACLEBE</item>
+        <item>SPEL Semiconductor Ltd. - SPICELEC</item>
+        <item>Spentex Industries Ltd. - SPENTEXBE</item>
+        <item>Sphere Global Solutions Ltd. - COLORCHIPS</item>
+        <item>Spice Communications Ltd. [Merged] - SPICETELE</item>
+        <item>Spicejet Ltd. - MODILUFTBE</item>
+        <item>SPL Industries Ltd. - SPLIL</item>
+        <item>SPML Infra Ltd. - SPMLINFRABE</item>
+        <item>Sree Rayalaseema Alkalies &amp; Allied Chemicals Ltd. - SREERAYALKBE</item>
+        <item>Sree Rayalaseema Hi - Strength Hypo Ltd. - SRHHYPOLTD</item>
+        <item>Sreeleathers Ltd. - SREEL</item>
+        <item>SREI Infrastructure Finance Ltd. - SREINFRA</item>
+        <item>SRF Ltd. - SRF</item>
+        <item>SRHHL Industries Ltd.[Amalgamated] - SRHHLINDST</item>
+        <item>Sri Adhikari Brothers Television Network Ltd. - SABTN</item>
+        <item>Sri Chamundeswari Sugars Ltd. - SRICHAMUND</item>
+        <item>SRS Ltd. - SRSLTD</item>
+        <item>Standard Batteries Ltd. - STANDRDBATBE</item>
+        <item>Standard Industries Ltd. - SILBE</item>
+        <item>Star Ferro and Cement Ltd. - SFCLBE</item>
+        <item>Star Paper Mills Ltd. - STARPAPERBE</item>
+        <item>State Bank Of Bikaner and Jaipur - SBBJ</item>
+        <item>State Bank of India - SBIN</item>
+        <item>State Bank Of Mysore - MYSOREBANK</item>
+        <item>State Bank of Travancore - SBT</item>
+        <item>State Trading Corporation Of India Ltd. - STCINDIA</item>
+        <item>Steel Authority of India (SAIL) Ltd. - SAIL</item>
+        <item>Steel Strips Wheels Ltd. - SSWL</item>
+        <item>Steel Tubes of India Ltd. - STEELTUBES</item>
+        <item>Steelco Gujarat Ltd. - STEELCOGUJBE</item>
+        <item>STEL Holdings Ltd. - STELBE</item>
+        <item>Sterling Biotech Ltd. - STERLINBIO</item>
+        <item>Sterling Holiday Resorts (I) Ltd. - STERLINHOLBE</item>
+        <item>Sterling Tools Ltd. - STERTOOLS</item>
+        <item>Sterlite Industries (India) Ltd. (Amalgamated) - STER</item>
+        <item>Sterlite Technologies Ltd. - STRTECHBE</item>
+        <item>STI India Ltd. - STINDIABE</item>
+        <item>STL Global Ltd. - SGL</item>
+        <item>Store One Retail India Ltd. - STOREONE</item>
+        <item>Strides Arcolab Ltd. - STAR</item>
+        <item>Styrolution ABS (India) Ltd. - STYABS</item>
+        <item>Suashish Diamonds Ltd. - SUASHDIMON</item>
+        <item>Subex Ltd. - SUBEX</item>
+        <item>Subros Ltd. - SUBROSBE</item>
+        <item>Sudar Industries Ltd. - SUDAR</item>
+        <item>Sudarshan Chemical Industries Ltd. - SUDARSCHEM</item>
+        <item>Suditi Industries Ltd. - SUDITINDBE</item>
+        <item>Sujana Metal Products Ltd. - SMPLBE</item>
+        <item>Sujana Towers Ltd. - SUJANATWR</item>
+        <item>Sujana Universal Industries Ltd. - SUJANAUNIBE</item>
+        <item>Sulzer India Ltd. - SULZER</item>
+        <item>Suman Motels Ltd. - SUMANMOTELBE</item>
+        <item>Sumeet Industries Ltd. - SUMEETINDS</item>
+        <item>Summit Securities Ltd. - SUMMITSEC</item>
+        <item>Summit Securities Ltd.(Old) [Amalgamated] - SUMMIT</item>
+        <item>Sun Pharma Advanced Research Company Ltd. - SPARC</item>
+        <item>Sun Pharmaceutical Industries Ltd. - SUNPHARMA</item>
+        <item>Sun Polytron Industries Ltd. - KESWANISYNBE</item>
+        <item>Sun TV Network Ltd. - SUNTV</item>
+        <item>Sundaram Brake Lining Ltd. - SUNDRMBRAKBE</item>
+        <item>Sundaram Clayton Ltd. - SUNCLAYLTDBE</item>
+        <item>Sundaram Finance Ltd. - SUNDARMFIN</item>
+        <item>Sundaram Multi Pap Ltd. - SUNDARAM</item>
+        <item>Sundram Fasteners Ltd. - SUNDRMFAST</item>
+        <item>Sunflag Iron &amp; Steel Company Ltd. - SUNFLAG</item>
+        <item>Sunil Hitech Engineers Ltd. - SUNILHITEC</item>
+        <item>Sunteck Realty Ltd. - SUNTECK</item>
+        <item>Super Sales India Ltd. - SUPER</item>
+        <item>Super Spinning Mills Ltd. - SUPERSPINBE</item>
+        <item>Suprajit Engineering Ltd. - SUPRAJIT</item>
+        <item>Supreme Industries Ltd. - SUPREMEIND</item>
+        <item>Supreme Infrastructure India Ltd. - SUPREMEINFBE</item>
+        <item>Supreme Petrochem Ltd. - SUPPETRO</item>
+        <item>Supreme Tex Mart Ltd. - SUPREMETEXBE</item>
+        <item>Surana Corporation Ltd. - SURANACORP</item>
+        <item>Surana Industries Ltd. - SURANAIND</item>
+        <item>Surana Telecom and Power Ltd. - SURANATandPBE</item>
+        <item>Surana Ventures Ltd. - SURANAVELBE</item>
+        <item>Surya Pharmaceuticals Ltd. - SURYAPHARMBE</item>
+        <item>Surya Roshni Ltd. - SURYAROSNI</item>
+        <item>Suryajyoti Spinning Mills Ltd. - SURYAJYOTI</item>
+        <item>Suryalakshmi Cotton Mills Ltd. - SURYALAXMIBE</item>
+        <item>Suryavanshi Spinning Mills Ltd. - SURYVANSPGBE</item>
+        <item>Sutlej Textiles &amp; Industries Ltd. - SUTLEJTEX</item>
+        <item>Suvarna Aquarfarm &amp; Exports Ltd. - SUVARNAQUABE</item>
+        <item>Suven Life Sciences Ltd. - SUVEN</item>
+        <item>Suzlon Energy Ltd. - SUZLONBE</item>
+        <item>Svadeshi Mills Company Ltd. - SVADMILLSBE</item>
+        <item>SVC Superchem Ltd. - ATVPETROBE</item>
+        <item>Swan Energy Ltd. - SWANENERGY</item>
+        <item>Swaraj Engines Ltd. - SWARAJENG</item>
+        <item>Swelect Energy Systems Ltd. - SWELECTES</item>
+        <item>Symphony Ltd. - SYMPHONY</item>
+        <item>Syncom Healthcare Ltd. - SYNCOM</item>
+        <item>Syndicate Bank - SYNDIBANK</item>
+        <item>Synthetics &amp; Chemicals Ltd. - SYNTHCHEMBE</item>
+        <item>T T Ltd. - TTL</item>
+        <item>Tainwala Chemicals &amp; Plastics (India) Ltd. - TAINWALCHMBE</item>
+        <item>Taj GVK Hotels &amp; Resorts Ltd. - TAJGVK</item>
+        <item>Take Solutions Ltd. - TAKE</item>
+        <item>Taksheel Solutions Ltd. - TAKSHEELBE</item>
+        <item>Talbros Automotive Components Ltd. - TALBROAUTO</item>
+        <item>Talwalkars Better Value Fitness Ltd. - TALWALKARS</item>
+        <item>Tamil Nadu Newsprint And Papers Ltd. - TNPL</item>
+        <item>Tamil Nadu Telecommunications Ltd. - TNTELEBE</item>
+        <item>Tamilnadu Petroproducts Ltd. - TNPETRO</item>
+        <item>Taneja Aerospace &amp; Aviation Ltd. - TANEJAEROBE</item>
+        <item>Tanfac Industries Ltd. - TANFACINDBE</item>
+        <item>Tanla Solutions Ltd. - TANLABE</item>
+        <item>Tantia Constructions Ltd. - TANTIACONS</item>
+        <item>Tara Jewels Ltd. - TARAJEWELS</item>
+        <item>Tarapur Transformers Ltd. - TARAPUR</item>
+        <item>Tarmat Ltd. - TARMATBE</item>
+        <item>Tata Chemicals Ltd. - TATACHEM</item>
+        <item>Tata Coffee Ltd. - TATACOFFEE</item>
+        <item>Tata Communications Ltd. - TATACOMM</item>
+        <item>Tata Consultancy Services Ltd. - TCS</item>
+        <item>Tata Elxsi Ltd. - TATAELXSI</item>
+        <item>Tata Global Beverages Ltd. - TATAGLOBAL</item>
+        <item>Tata Investment Corporation Ltd. - TATAINVEST</item>
+        <item>Tata Metaliks Ltd. - TATAMETALI</item>
+        <item>Tata Motors Ltd. - TATAMOTORS</item>
+        <item>Tata Power Company Ltd. - TATAPOWER</item>
+        <item>Tata Sponge Iron Ltd. - TATASPONGE</item>
+        <item>Tata Steel Ltd. - TATASTEEL</item>
+        <item>Tata Teleservices (Maharashtra) Ltd. - TTML</item>
+        <item>Tayo Rolls Ltd. - TATAYODOGA</item>
+        <item>TCI Developers Ltd. - TCIDEVELOPBE</item>
+        <item>TCI Finance Ltd. - TCIFINANCEBE</item>
+        <item>TCP Ltd. - TCPLTDBE</item>
+        <item>TD Power Systems Ltd. - TDPOWERSYS</item>
+        <item>Tech Mahindra Ltd. - TECHM</item>
+        <item>Techno Electric &amp; Engineering Company Ltd. - TECHNO</item>
+        <item>Techno Electric &amp; Engineering company Ltd. [Merged] - TECHNOELEC</item>
+        <item>Technocraft Industries (India) Ltd. - TIILBE</item>
+        <item>Technofab Engineering Ltd. - TECHNOFAB</item>
+        <item>Tecpro Systems Ltd. - TECPROBE</item>
+        <item>Teledata Marine Solutions Ltd. - TELEMARINEBE</item>
+        <item>Teledata Technology Solutions Ltd. - TELEDATAITBE</item>
+        <item>Telephone Cables Ltd. - TELEPHNCAB</item>
+        <item>Television Eighteen India Ltd. - TV - 18</item>
+        <item>Texmaco Infrastructure &amp; Holdings Ltd. - TEXINFRA</item>
+        <item>Texmaco Rail &amp; Engineering Ltd. - TEXRAIL</item>
+        <item>Texmo Pipes &amp; Products Ltd. - TEXMOPIPES</item>
+        <item>Thangamayil Jewellery Ltd. - THANGAMAYLBE</item>
+        <item>The Byke Hospitality Ltd. - THEBYKE</item>
+        <item>The Ramco Cements Ltd. - RAMCOCEM</item>
+        <item>Thejo Engineering Ltd. - THEJOSM</item>
+        <item>Themis Medicare Ltd. - THEMISMEDBE</item>
+        <item>Thermax Ltd. - THERMAX</item>
+        <item>Thinksoft Global Services Ltd. - THINKSOFT</item>
+        <item>Thiru Arooran Sugars Ltd. - THIRUSUGARBE</item>
+        <item>Thirumalai Chemicals Ltd. - TIRUMALCHM</item>
+        <item>Thomas Cook (India) Ltd. - THOMASCOOK</item>
+        <item>Thomas Scott (India) Ltd. - THOMASCOTTBE</item>
+        <item>Tide Water Oil Company India Ltd. - TIDEWATER</item>
+        <item>Tijaria Polypipes Ltd. - TIJARIA</item>
+        <item>TIL Ltd. - TIL</item>
+        <item>Tilak Nagar Industries Ltd. - TI</item>
+        <item>Timbor Home Ltd. - TIMBOR</item>
+        <item>Time Technoplast Ltd. - TIMETECHNO</item>
+        <item>Times Guaranty Ltd. - TIMESGTY</item>
+        <item>Timex Group India Ltd. - TIMEXWATCH</item>
+        <item>Timken India Ltd. - TIMKEN</item>
+        <item>Tinplate Company of India Ltd. - TINPLATE</item>
+        <item>Tips Industries Ltd. - TIPSINDLTD</item>
+        <item>Titagarh Steels Ltd.[Merged] - TITAGRSTELBE</item>
+        <item>Titagarh Wagons Ltd. - TWLBE</item>
+        <item>Titan Company Ltd. - TITAN</item>
+        <item>Todays Writing Instruments Ltd. - TODAYSBE</item>
+        <item>Tokyo Plast International Ltd. - TOKYOPLAST</item>
+        <item>Torrent Cables Ltd. - TORRENGUJBE</item>
+        <item>Torrent Cables Ltd. (Old) - TORRENTCABBE</item>
+        <item>Torrent Pharmaceuticals Ltd. - TORNTPHARM</item>
+        <item>Torrent Power AEC Ltd. - TORRENTAEC</item>
+        <item>Torrent Power Ltd. - TORNTPOWER</item>
+        <item>Torrent Power SEC Ltd. - TORRENTSEC</item>
+        <item>Tourism Finance Corporation of India Ltd. - TFCILTD</item>
+        <item>TPI India Ltd. - TPINDIABE</item>
+        <item>Trans Freight Containers Ltd. - TRANSFREITBE</item>
+        <item>Transchem Ltd. - TRANSCHEM</item>
+        <item>Transformers &amp; Rectifiers (India) Ltd. - TRIL</item>
+        <item>Transpek Industry Ltd. - TRANSPEK</item>
+        <item>Transport Corporation of India Ltd. - TCI</item>
+        <item>Transwarranty Finance Ltd. - TFLBE</item>
+        <item>Treadsdirect Ltd.(Old) - TREADS</item>
+        <item>Tree House Education &amp; Accessories Ltd. - TREEHOUSE</item>
+        <item>Trent Ltd. - TRENT</item>
+        <item>TRF Ltd. - TRF</item>
+        <item>Tribhovandas Bhimji Zaveri Ltd. - TBZ</item>
+        <item>Tricom India Ltd. - TRICOMBE</item>
+        <item>Trident Ltd. - TRIDENT</item>
+        <item>Trigyn Technologies Ltd. - TRIGYN</item>
+        <item>Trinetra Cement Ltd. - INDOZINCBE</item>
+        <item>Triveni Engineering &amp; Industries Ltd. - TRIVENIBE</item>
+        <item>Triveni Glass Ltd. - TRIVENSHETBE</item>
+        <item>Triveni Turbine Ltd. - TRITURBINE</item>
+        <item>TTK Healthcare Ltd. - TTKHEALTH</item>
+        <item>TTK Prestige Ltd. - TTKPRESTIG</item>
+        <item>Tube Investments of India Ltd. - TUBEINVEST</item>
+        <item>Tulip Telecom Ltd. - TULIPBZ</item>
+        <item>Tulsi Extrusions Ltd. - TULSI</item>
+        <item>Tulsyan NEC Ltd. - TULSYANBE</item>
+        <item>Tuticorin Alkali Chemicals &amp; Fertilizers Ltd. - TUTICORALKBE</item>
+        <item>TV Today Network Ltd. - TVTODAY</item>
+        <item>TV18 Broadcast Ltd. - TV18BRDCST</item>
+        <item>TVS Electronics Ltd. - TVSELECT</item>
+        <item>TVS Motor Company Ltd. - TVSMOTOR</item>
+        <item>TVS Srichakra Ltd. - TVSSRICHAKBE</item>
+        <item>Twentyfirst Century Management Services Ltd. - 21STCENMGM</item>
+        <item>Twilight Litaka Pharma Ltd. - TWILITAKABE</item>
+        <item>UB Engineering Ltd. - UBENGGBE</item>
+        <item>Ucal Fuel Systems Ltd. - UCALFUEL</item>
+        <item>UCO Bank - UCOBANK</item>
+        <item>Udaipur Cement Works Ltd. - JKUDYOGBE</item>
+        <item>Uflex Ltd. - UFLEX</item>
+        <item>Ugar Sugar Works Ltd. - UGARSUGARBE</item>
+        <item>Ujaas Energy Ltd. - UJAASBE</item>
+        <item>Ultramarine &amp; Pigments Ltd. - ULTRMARINE</item>
+        <item>UltraTech Cement Ltd. - ULTRACEMCO</item>
+        <item>Umang Dairies Ltd. - JKDAIRYBE</item>
+        <item>Unichem Laboratories Ltd. - UNICHEMLAB</item>
+        <item>Uniflex Cables Ltd.[Amalgamated] - UNIFLEX</item>
+        <item>Unimin India Ltd. - UNIMINBE</item>
+        <item>Union Bank of India - UNIONBANK</item>
+        <item>Uniphos Enterprises Ltd. - UNIENTER</item>
+        <item>Uniply Industries Ltd. - UNIPLY</item>
+        <item>Unitech Ltd. - UNITECH</item>
+        <item>United Bank of India - UNITEDBNK</item>
+        <item>United Breweries (Holdings) Ltd. - UBHOLDINGS</item>
+        <item>United Breweries Ltd. - UBL</item>
+        <item>United Nilgiri Tea Estates Company Ltd. - UNITEDTEA</item>
+        <item>United Spirits Ltd. - MCDOWELL - N</item>
+        <item>United Western Bank Ltd.[Merged] - UNIWESTBNK</item>
+        <item>Unity Infraprojects Ltd. - UNITY</item>
+        <item>Universal Cables Ltd. - UNIVCABLESBE</item>
+        <item>Uniworth Ltd. - WOOLWORTHBE</item>
+        <item>UPL Ltd. - UPL</item>
+        <item>Upper Ganges Sugar &amp; Industries Ltd. - UPERGANGES</item>
+        <item>Usha Ispat Ltd. - USHAISPATBE</item>
+        <item>Usha Martin Education &amp; Solutions Ltd. - UMESLTDBE</item>
+        <item>Usha Martin Ltd. - USHAMART</item>
+        <item>Ushdev International Ltd. - USHDEVINTBE</item>
+        <item>Usher Agro Ltd. - USHERAGRO</item>
+        <item>UTI Mastershare - MASTERSHAR</item>
+        <item>Uttam Galva Steels Ltd. - UTTAMSTL</item>
+        <item>Uttam Sugar Mills Ltd. - UTTAMSUGAR</item>
+        <item>Uttam Value Steels Ltd. - UTTAMVALUE</item>
+        <item>UTV Software Communications Ltd. - UTVSOF</item>
+        <item>V B Desai Financial Services Ltd. - VBDESAIFINBE</item>
+        <item>V Mart Retail Ltd. - VMART</item>
+        <item>V - Guard Industries Ltd. - VGUARD</item>
+        <item>V2 Retail Ltd. - V2RETAILBE</item>
+        <item>Va Tech Wabag Ltd. - WABAGBE</item>
+        <item>Vadilal Industries Ltd. - VADILALIND</item>
+        <item>Vaibhav Global Ltd. - VAIBHAVGBL</item>
+        <item>Vakrangee Ltd. - VAKRANGEE</item>
+        <item>Valecha Engineering Ltd. - VALECHAENGBE</item>
+        <item>Value Industries Ltd. - VALUEIND</item>
+        <item>Vardhman Acrylics Ltd. - VARDHACRLC</item>
+        <item>Vardhman Holdings Ltd. - VHL</item>
+        <item>Vardhman Polytex Ltd. - VARDMNPOLY</item>
+        <item>Vardhman Special Steels Ltd. - VSSLBE</item>
+        <item>Vardhman Textiles Ltd. - VTL</item>
+        <item>Varun Industries Ltd. - VARUNBE</item>
+        <item>Varun Shipping Company Ltd. - VARUNSHIP</item>
+        <item>Vascon Engineers Ltd. - VASCON</item>
+        <item>Vaswani Industries Ltd. - VASWANIBE</item>
+        <item>Vatsa Corporation Ltd. - VATSALTDBE</item>
+        <item>Veerhealth Care Ltd. - NIYATILEASBE</item>
+        <item>Vegepro Foods and Feeds Ltd. - VEGPROFOODBE</item>
+        <item>Venky\'s (India) Ltd. - VENKEYS</item>
+        <item>Venlon Enterprises Ltd. - VENLONPOLYBE</item>
+        <item>Ventura Textiles Ltd. - VTCINDBE</item>
+        <item>Venus Remedies Ltd. - VENUSREM</item>
+        <item>Venus Sugar Ltd. - VENUSUGARBE</item>
+        <item>Vesuvius India Ltd. - VESUVIUS</item>
+        <item>Veto Switchgears &amp; Cables Ltd. - VETOSM</item>
+        <item>Viceroy Hotels Ltd. - VICEROY</item>
+        <item>Videocon Industries Ltd. - VIDEOIND</item>
+        <item>Vijay Shanthi Builders Ltd. - VIJSHAN</item>
+        <item>Vijaya Bank - VIJAYABANK</item>
+        <item>Vikas GlobalOne Ltd. - VIKASGLOB</item>
+        <item>Vikas WSP Ltd. - VIKASWSPBE</item>
+        <item>Vikash Metal &amp; Power Ltd. - VIKASHMET</item>
+        <item>Vimal Oil &amp; Foods Ltd. - VIMALOIL</item>
+        <item>Vimta Labs Ltd. - VIMTALABS</item>
+        <item>Vinati Organics Ltd. - VINATIORGA</item>
+        <item>Vindhya Telelinks Ltd. - VINDHYATEL</item>
+        <item>Vintage Cards &amp; Creations Ltd. - VINCARDS</item>
+        <item>Vinyl Chemicals (I) Ltd. - VINYLINDIA</item>
+        <item>VIP Industries Ltd. - VIPIND</item>
+        <item>Vippy Industries Ltd. - VIPPYSOLVXBE</item>
+        <item>Vipul Ltd. - VIPULBE</item>
+        <item>Viral Syntex Ltd. - VIRALSYNTXBE</item>
+        <item>Visa Steel Ltd. - VISASTEEL</item>
+        <item>Visagar Polytex Ltd. - VIVIDHABE</item>
+        <item>Visaka Industries Ltd. - VISAKAINDBE</item>
+        <item>Visesh Infotecnics Ltd. - VISESHINFOBE</item>
+        <item>Vishal Exports Overseas Ltd. - VISHALEXPO</item>
+        <item>Vision Organics Ltd. - VISIONLTD</item>
+        <item>Visu International Ltd. - VISUINTLBE</item>
+        <item>Visualsoft Technologies Ltd. - VISUALSOFT</item>
+        <item>Vital Communications Ltd. - VITALCOMMBE</item>
+        <item>Vitara Chemicals Ltd. - VITARACHEMBE</item>
+        <item>Vivimed Labs Ltd. - VIVIMEDLAB</item>
+        <item>VKS Projects Ltd. - VKSPLBE</item>
+        <item>VLS Finance Ltd. - VLSFINANCEBE</item>
+        <item>Voith Paper Fabrics India Ltd. - PORRITSPENBE</item>
+        <item>Voltamp Transformers Ltd. - VOLTAMP</item>
+        <item>Voltas Ltd. - VOLTAS</item>
+        <item>VST Industries Ltd. - VSTIND</item>
+        <item>VST Tillers Tractors Ltd. - VSTTILLERSBE</item>
+        <item>VTM Ltd. - VTMLTD</item>
+        <item>VTX Industries Ltd. - VTXINDBE</item>
+        <item>Vulcan Engineers Ltd. - VULCANENGBE</item>
+        <item>VXL Instruments Ltd. - VXLINSTR</item>
+        <item>W S Industries (India) Ltd. - WSIBE</item>
+        <item>WABCO India Ltd. - WABCOINDIA</item>
+        <item>Wadala Commodities Ltd. - GFL</item>
+        <item>Walchandnagar Industries Ltd. - WALCHANNAG</item>
+        <item>Wanbury Ltd. - WANBURYBE</item>
+        <item>Warren Tea Ltd. - WARRENTEA</item>
+        <item>Wartsila India Ltd. - WARTSILA</item>
+        <item>Waterbase Ltd. - WATERBASEBT</item>
+        <item>Websol Energy Systems Ltd. - WEBELSOLARBE</item>
+        <item>Weizmann Forex Ltd. - WEIZFOREXBE</item>
+        <item>Weizmann Forex Ltd.[Amalgamated] - WEIZFOREXBE</item>
+        <item>Weizmann Ltd. - WEIZMANINDBE</item>
+        <item>Wellman Incandescent India Ltd. - WELMANINCABE</item>
+        <item>Wellwin Industry Ltd. - WELLWININD</item>
+        <item>Welspun Corp Ltd. - WELCORP</item>
+        <item>Welspun Global Brands Ltd.[Amalgamated] - WELGLOBBE</item>
+        <item>Welspun India Ltd. - WELSPUNINDBE</item>
+        <item>Welspun Infra Enterprises Ltd. - WELENTRP</item>
+        <item>Welspun Investments &amp; Commercials Ltd. - WELINVBE</item>
+        <item>Welspun Projects Ltd. - WELPROJBE</item>
+        <item>Wendt India Ltd. - WENDT</item>
+        <item>West Coast Paper Mills Ltd. - WSTCSTPAPR</item>
+        <item>Wheels India Ltd. - WHEELS</item>
+        <item>Whirlpool of India Ltd. - WHIRLPOOL</item>
+        <item>Willard India Ltd. - WILLARDLTDBE</item>
+        <item>Williamson Magor &amp; Company Ltd. - WILLAMAGOR</item>
+        <item>Williamson Tea Assam Ltd. - GEORGWILIMBE</item>
+        <item>Wim Plast Ltd. - WIMPLAST</item>
+        <item>Windsor Machines Ltd. - WINDMACHIN</item>
+        <item>Winsome Diamonds and Jewellery Ltd. - WINSOMEDJ</item>
+        <item>Winsome Yarns Ltd. - WINSOME</item>
+        <item>Wipro Ltd. - WIPRO</item>
+        <item>Wisec Global Ltd. - WESTINDSECBE</item>
+        <item>Wockhardt Ltd. - WOCKPHARMA</item>
+        <item>Wonderla Holidays Ltd. - WONDERLA</item>
+        <item>Wopolin Plastics Ltd. - WOPOLIN</item>
+        <item>Wyeth Ltd. - WYETH</item>
+        <item>Xchanging Solutions Ltd. - XCHANGING</item>
+        <item>XL Energy Ltd. - XLENERGYBE</item>
+        <item>Xpro India Ltd. - XPROINDIA</item>
+        <item>YES Bank Ltd. - YESBANK</item>
+        <item>Yokogawa India Ltd - YOKOGAWA</item>
+        <item>Yuken India Ltd. - YUKENINDIABE</item>
+        <item>Zandu Realty Ltd. - ZANDUREALT</item>
+        <item>Zee Entertainment Enterprises Ltd. - ZEEL</item>
+        <item>Zee Learn Ltd. - ZEELEARN</item>
+        <item>Zee Media Corporation Ltd. - ZEEMEDIA</item>
+        <item>Zenith Birla (India) Ltd. - ZENITHBIR</item>
+        <item>Zenith Computers Ltd. - ZENITHCOMPBE</item>
+        <item>Zenith Exports Ltd. - ZENITHEXPO</item>
+        <item>Zenith Infotech Ltd. - ZENITHINFOBE</item>
+        <item>Zensar Technologies Ltd. - ZENSARTECH</item>
+        <item>ZF Steering Gear (India) Ltd. - ZFSTEERINGBE</item>
+        <item>Zicom Electronic Security Systems Ltd. - ZICOMBE</item>
+        <item>Zodiac Clothing Company Ltd. - ZODIACLOTH</item>
+        <item>Zodiac JRD MKJ Ltd. - ZODJRDMKJBE</item>
+        <item>Zuari Agro Chemicals Ltd. - ZUARI</item>
+        <item>Zuari Global Ltd. - ZUARIGLOB</item>
+        <item>Zydus Wellness Ltd. - ZYDUSWELL</item>
+        <item>Zylog Systems Ltd. - ZYLOG</item>
+        <item>20 Microns Ltd. - 20MICRONS</item>
+        <item>3i Infotech Ltd. - 3IINFOTECHBE</item>
+        <item>3M India Ltd. - 3MINDIA</item>
+        <item>8K Miles Software Services Ltd. - 8KMILES</item>
+        <item>A2Z Maintenance &amp; Engineering Services Ltd. - A2ZMES</item>
+        <item>Aafloat Textiles (India) Ltd. - AKAIMPEXBE</item>
+        <item>Aarti Drugs Ltd. - AARTIDRUGS</item>
+        <item>Aarti Industries Ltd. - AARTIIND</item>
+        <item>Aarvee Denims and Exports Ltd. - AARVEEDEN</item>
+        <item>Aban Offshore Ltd. - ABAN</item>
+        <item>ABB India Ltd. - ABB</item>
+        <item>Abbott India Ltd. - ABBOTINDIA</item>
+        <item>ABC Bearings Ltd. - ANTFRIBEARBE</item>
+        <item>ABG Infralogistics Ltd. - ABGHEAVYBE</item>
+        <item>ABG Shipyard Ltd. - ABGSHIP</item>
+        <item>Abhishek Corporation Ltd. - ABHISHEK</item>
+        <item>ACC Ltd. - ACC</item>
+        <item>Accel Frontline Ltd. - AFL</item>
+        <item>Accelya Kale Solutions Ltd. - ACCELYA</item>
+        <item>ACE Laboratories Ltd. - ACELABBE</item>
+        <item>Acropetal Technologies Ltd. - ACROPETAL</item>
+        <item>Action Construction Equipment Ltd. - ACE</item>
+        <item>Adani Enterprises Ltd. - ADANIENT</item>
+        <item>Adani Ports &amp; Special Economic Zone Ltd. - ADANIPORTS</item>
+        <item>Adani Power Ltd. - ADANIPOWER</item>
+        <item>Adarsh Chemicals &amp; Fertilisers Ltd. - ADARSHCHEMBE</item>
+        <item>ADC India Communications Ltd. - KRONECOMM</item>
+        <item>ADF Foods Ltd. - ADFFOODS</item>
+        <item>Adhunik Metaliks Ltd. - ADHUNIK</item>
+        <item>Aditya Birla Chemicals (India) Ltd. - ABCIL</item>
+        <item>Aditya Birla Minacs IT Services Ltd. - PSIDATASYS</item>
+        <item>Aditya Birla Money Ltd. - BIRLAMONEY</item>
+        <item>Aditya Birla Nuvo Ltd. - ABIRLANUVO</item>
+        <item>Aditya International Ltd. - ADITYAINTL</item>
+        <item>Aditya Spinners Ltd. - ADITYASPINBE</item>
+        <item>Ador Welding Ltd. - ADORWELDBE</item>
+        <item>Advance Metering Technology Ltd. - AMTL</item>
+        <item>Advani Hotels &amp; Resorts (India) Ltd. - ADVANIHOTR</item>
+        <item>Advanta Ltd. - ADVANTABE</item>
+        <item>Aegis Logistics Ltd. - AEGISCHEM</item>
+        <item>Aftek Ltd. - AFTEKBE</item>
+        <item>Agarwal Industrial Corporation Ltd. - AGARIND</item>
+        <item>AGC Networks Ltd. - AGCNET</item>
+        <item>Agnite Education Ltd. - TELEDATAGL</item>
+        <item>Agri - Tech (India) Ltd. - AGRITECHBE</item>
+        <item>Agro Dutch Industries Ltd. - AGRODUTCHBE</item>
+        <item>Agro Tech Foods Ltd. - ATFL</item>
+        <item>Ahluwalia Contracts (India) Ltd. - AHLUCONT</item>
+        <item>Ahmednagar Forgings Ltd. - AHMEDFORGE</item>
+        <item>AI Champdany Industries Ltd. - AICHAMPBE</item>
+        <item>AIA Engineering Ltd. - AIAENG</item>
+        <item>Aimco Pesticides Ltd. - AIMCOPESTBE</item>
+        <item>Ajanta Pharma Ltd. - AJANTPHARM</item>
+        <item>Ajmera Realty &amp; Infra India Ltd. - AJMERA</item>
+        <item>Aksh Optifibre Ltd. - AKSHOPTFBR</item>
+        <item>Akzo Nobel India Ltd. - AKZOINDIA</item>
+        <item>Alchemist Ltd. - ALCHEM</item>
+        <item>Alembic Ltd. - ALEMBICLTD</item>
+        <item>Alembic Pharmaceuticals Ltd. - APLLTD</item>
+        <item>Alfa Laval (India) Ltd. - ALFALAVAL</item>
+        <item>Alfred Herbert (India) Ltd. - ALFREDHERBBE</item>
+        <item>Alicon Castalloy Ltd. - ALICON</item>
+        <item>Alkali Metals Ltd. - ALKALI</item>
+        <item>Alkyl Amines Chemicals Ltd. - ALKYLAMINE</item>
+        <item>Allahabad Bank - ALBK</item>
+        <item>Allcargo Logistics Ltd. - ALLCARGO</item>
+        <item>Allied Digital Services Ltd. - ADSL</item>
+        <item>Allied Resins &amp; Chemicals Ltd.[Amalgamated] - ALLIEDRESBE</item>
+        <item>Allsec Technologies Ltd. - ALLSEC</item>
+        <item>Almondz Global Securities Ltd. - ALMONDZ</item>
+        <item>Alok Industries Ltd. - ALOKTEXT</item>
+        <item>Alpa Laboratories Ltd. - ALPABE</item>
+        <item>Alpha Geo (India) Ltd. - ALPHAGEO</item>
+        <item>Alpine Housing Development Corporation Ltd. - ALPINEHOUBE</item>
+        <item>Alpine Industries Ltd. - ALPINEINDBE</item>
+        <item>Alps Industries Ltd. - ALPSINDUSBE</item>
+        <item>Alsa Marine &amp; Harvests Ltd. - ALSAMARINEBE</item>
+        <item>Alstom India Ltd. - AIL</item>
+        <item>Alstom T&amp;D India Ltd. - ALSTOMTandD</item>
+        <item>Amar Remedies Ltd. - AMARBE</item>
+        <item>Amara Raja Batteries Ltd. - AMARAJABAT</item>
+        <item>Amarjothi Spinning Mills Ltd. - AMARJOTHI</item>
+        <item>Ambalal Sarabhai Enterprises Ltd. - AMBASARABH</item>
+        <item>Ambica Agarbathies &amp; Aroma Industries Ltd. - AMBICAAGAR</item>
+        <item>Ambika Cotton Mills Ltd. - AMBIKCO</item>
+        <item>Ambuja Cement Eastern Ltd. - MODICEMENTBE</item>
+        <item>Ambuja Cements Ltd. - AMBUJACEM</item>
+        <item>AMD Industries Ltd. - AMDINDBE</item>
+        <item>Amforge Industries Ltd. - AMFORGEINDBE</item>
+        <item>Amit Spinning Industries Ltd. - ASILBE</item>
+        <item>AML Steel Ltd. - AMLSTEELBE</item>
+        <item>Amrutanjan Health Care Ltd. - AMRUTANJAN</item>
+        <item>Amtek Auto Ltd. - AMTEKAUTO</item>
+        <item>Amtek India Ltd. - AMTEKINDIABE</item>
+        <item>Anant Raj Ltd. - ANANTRAJ</item>
+        <item>Andhra Bank - ANDHRABANK</item>
+        <item>Andhra Cements Ltd. - ANDHRACEMT</item>
+        <item>Andhra Petrochemicals Ltd. - ANDHRAPET</item>
+        <item>Andhra Sugars Ltd. - ANDHRSUGAR</item>
+        <item>Andrew Yule &amp; Company Ltd. - ANDREWYULEBE</item>
+        <item>ANG Industries Ltd. - ANGINDBE</item>
+        <item>Anik Industries Ltd. - ANIKINDSBE</item>
+        <item>Anil Special Steel Industries Ltd. - ASILINDBE</item>
+        <item>Ankit Metal &amp; Power Ltd. - ANKITMETAL</item>
+        <item>Ankur Drugs &amp; Pharma Ltd. - ANKURDRUGSBE</item>
+        <item>Ansal Housing &amp; Construction Ltd. - ANSALHSG</item>
+        <item>Ansal Properties &amp; Infrastructure Ltd. - ANSALAPI</item>
+        <item>Antarctica Ltd. - ANTGRAPHICBE</item>
+        <item>Apar Industries Ltd. - APARINDS</item>
+        <item>Apcotex Industries Ltd. - APCOTEXIND</item>
+        <item>Apeejay Tea Ltd. - ASSAMFRONT</item>
+        <item>APL Apollo Tubes Ltd. - APLAPOLLO</item>
+        <item>Aplab Ltd. - APLABBE</item>
+        <item>Apollo Hospitals Enterprise Ltd. - APOLLOHOSP</item>
+        <item>Apollo Tyres Ltd. - APOLLOTYRE</item>
+        <item>Apple Finance Ltd. - APPLEINDBE</item>
+        <item>Aptech Ltd. - APTECHT</item>
+        <item>Aqua Logistics Ltd. - AQUA</item>
+        <item>Aravali Securities &amp; Finance Ltd. - ARAVALISECBE</item>
+        <item>Archana Software Ltd. - SSLFINANCE</item>
+        <item>Archidply Industries Ltd. - ARCHIDPLY</item>
+        <item>Archies Ltd. - ARCHIES</item>
+        <item>Arcotech Ltd. - ARCOTECH</item>
+        <item>Aries Agro Ltd. - ARIES</item>
+        <item>Arihant Cotsyn Ltd. - ARIHANTCOTBE</item>
+        <item>Arihant Foundations &amp; Housing Ltd. - ARIHANTBE</item>
+        <item>Arihant Industries Ltd. - ARIHANTINDBE</item>
+        <item>Arihant Threads Ltd. - ARIHANTRED</item>
+        <item>Aro Granite Industries Ltd. - AROGRANITE</item>
+        <item>Arrow Textiles Ltd. - ARROWTEX</item>
+        <item>Arshiya Ltd. - ARSHIYABE</item>
+        <item>ARSS Infrastructure Projects Ltd. - ARSSINFRABE</item>
+        <item>Artson Engineering Ltd. - ARTSONENGGBE</item>
+        <item>Aruna Hotels Ltd. - ARUNASUGARBE</item>
+        <item>Arvind Ltd. - ARVIND</item>
+        <item>Arvind Remedies Ltd. - ARVINDREM</item>
+        <item>Asahi India Glass Ltd. - ASAHIINDIA</item>
+        <item>Asahi Songwon Colors Ltd. - ASAHISONG</item>
+        <item>Ashapura Minechem Ltd. - ASHAPURMIN</item>
+        <item>Ashco Niulab Industries Ltd. - ASHCONIULBE</item>
+        <item>Ashiana Housing Ltd. - ASHIANA</item>
+        <item>Ashima Ltd. - ASHIMASYNBE</item>
+        <item>Ashok Alco - Chem Ltd. - ASHOKALCOBE</item>
+        <item>Ashok Leyland Ltd. - ASHOKLEY</item>
+        <item>Ashoka Buildcon Ltd. - ASHOKA</item>
+        <item>Ashram Online.com Ltd. - TATIASKYLNBE</item>
+        <item>Asian Electronics Ltd. - ASIANELECBE</item>
+        <item>Asian Granito India Ltd. - ASIANTILESBE</item>
+        <item>Asian Hotels (East) Ltd. - AHLEAST</item>
+        <item>Asian Hotels (North) Ltd. - ASIANHOTNR</item>
+        <item>Asian Hotels (West) Ltd. - AHLWEST</item>
+        <item>Asian Paints Ltd. - ASIANPAINT</item>
+        <item>Assam Company (India) Ltd. - ASSAMCO</item>
+        <item>Associated Alcohols &amp; Breweries Ltd. - ASOCALCHOLBE</item>
+        <item>Associated Stone Industries (Kotah) Ltd. - ASOCSTONEBE</item>
+        <item>Astec Lifesciences Ltd. - ASTEC</item>
+        <item>Astra Microwave Products Ltd. - ASTRAMICRO</item>
+        <item>Astral Poly Technik Ltd. - ASTRAL</item>
+        <item>AstraZeneca Pharma India Ltd. - ASTRAZEN</item>
+        <item>Atcom Technologies Ltd. - ATCOMBE</item>
+        <item>Atlanta Ltd. - ATLANTA</item>
+        <item>Atlantic Spinning and Weaving Mills Ltd. - ATLANTSPGBE</item>
+        <item>Atlas Copco (India) Ltd. - ATLASCOPCO</item>
+        <item>Atlas Cycles (Haryana) Ltd. - ATLASCYCLE</item>
+        <item>ATN International Ltd. - ATNINTERBE</item>
+        <item>Atul Auto Ltd. - ATULAUTO</item>
+        <item>Atul Ltd. - ATUL</item>
+        <item>ATV Projects India Ltd. - ATVPROJBE</item>
+        <item>Aurangabad Paper Mills Ltd. - AURANPAPERBE</item>
+        <item>Aurionpro Solutions Ltd. - AURIONPRO</item>
+        <item>Aurobindo Pharma Ltd. - AUROPHARMA</item>
+        <item>Ausom Enterprise Ltd. - AUSOMENTBE</item>
+        <item>Autoline Industries Ltd. - AUTOIND</item>
+        <item>Autolite (India) Ltd. - AUTOLITIND</item>
+        <item>Automobile Corporation Of Goa Ltd. - AUTOCORPBE</item>
+        <item>Automotive Axles Ltd. - AUTOAXLES</item>
+        <item>Automotive Stampings and Assemblies Ltd. - ASAL</item>
+        <item>Autopal Industries Ltd. - AUTOPALINDBE</item>
+        <item>Autoriders Finance Ltd. - AUTORIDFIN</item>
+        <item>Avanti Feeds Ltd. - AVANTI</item>
+        <item>Avery India Ltd. - AVERYBE</item>
+        <item>AVT Natural Products Ltd. - AVTNPL</item>
+        <item>Axis Bank Ltd. - AXISBANK</item>
+        <item>AXIS - IT&amp;T Ltd. - AXIS - ITandT</item>
+        <item>Aztecsoft Ltd.[Merged] - AZTECSOFT</item>
+        <item>B L Kashyap &amp; Sons Ltd. - BLKASHYAP</item>
+        <item>Bafna Pharmaceuticals Ltd. - BAFNAPHARM</item>
+        <item>BAG Films &amp; Media Ltd. - BAGFILMS</item>
+        <item>Bajaj Auto Ltd. - BAJAJ - AUTO</item>
+        <item>Bajaj Corp Ltd. - BAJAJCORP</item>
+        <item>Bajaj Electricals Ltd. - BAJAJELEC</item>
+        <item>Bajaj Finance Ltd. - BAJFINANCE</item>
+        <item>Bajaj Finserv Ltd. - BAJAJFINSV</item>
+        <item>Bajaj Hindustan Ltd. - BAJAJHIND</item>
+        <item>Bajaj Holdings &amp; Investment Ltd. - BAJAJHLDNG</item>
+        <item>Bal Pharma Ltd. - BALPHARMA</item>
+        <item>Balaji Amines Ltd. - BALAMINES</item>
+        <item>Balaji Distilleries Ltd.[Amalgamated] - BALAJIDIST</item>
+        <item>Balaji Industrial Corporation Ltd. - BALAJIIND</item>
+        <item>Balaji Telefilms Ltd. - BALAJITELE</item>
+    </string-array>
+
+    <string name="title_activity_add_stock">AddStock</string>
+    <string name="addstock_dialog_message">Are you sure you want to this scrip to your watchlist?</string>
+    <string name="addstock_dialog_title">Add Scrip</string>
+    <string name="addstock_dialog_yes">Yeah!</string>
+    <string name="addstock_dialog_no">nope</string>
+    <string name="nse">NSE</string>
+    <string name="error">An error occurred when fetching the stock details</string>
+    <string name="stockAddSuccess">Stock added to your watchlist</string>
+    <string name="stockAlreadyPresent">This stock is already in your watchlist!</string>
+    <string name="title_activity_individual_setting">IndividualSetting</string>
+    <string name="updateStock">Slide the bar to receive notification update on this stock</string>
+    <string name="undoText">Undo</string>
+    <string name="undo">Do Undo</string>
+    <string name="dayHighLow">Day\'s High/Low</string>
+    <string name="yearHighLow">52 Week High/Low</string>
+    <string name="currentPrice">Current Price</string>
+    <string name="title_activity_stock_detail">Stock Quote</string>
+    <string name="stockDetailFetchError">Please check if Mobile Data or Wifi is enabled</string>
+    <string name="action_pinit">Pin Scrip to Notification Bar</string>
+    <string name="max_pinned_stock_reached">Maximum of 5 stocks can only be pinned</string>
+    <string name="action_unpin">Unpin the Script from Notification Bar</string>
+    <string name="traded_volume">Shares Traded</string>
+    <string name="open_price">Open</string>
+    <string name="addstock_to_watchlist">Add to Watchlist</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   <RelativeLayout
+       android:id="@+id/rl1"
+       android:layout_width="fill_parent" 
+       android:layout_height="fill_parent"
+       android:background="#000000">
+       <Button 
+           android:id="@+id/shuffle"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Shuffle"
+           android:background="@drawable/red_button"
+           style="@style/ButtonText"/>
+       
+       <TextView 
+           android:id="@+id/moves"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:text="Moves:0"
+           android:textColor="#ffffff"
+           android:textSize="20dp"/>
+         <Button 
+           android:id="@+id/solution"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Solution"
+           android:layout_alignRight="@+id/moves"
+           android:layout_alignParentRight="true"
+           android:background="@drawable/red_button"
+           style="@style/ButtonText"/>
+       </RelativeLayout>
+       
+    <RelativeLayout 
+        android:id="@+id/rl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+          <ListView
+        android:id="@+id/no_moves"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:fadeScrollbars="false">
+    </ListView>
+    </RelativeLayout>
+   <ScrollView 
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content">
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        
+<!--    <Button -->
+<!--         android:id="@+id/ab1"  -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:text="Puzzle Solver" -->
+<!--         android:visibility="gone" -->
+<!--         android:background="@drawable/red_button" -->
+<!--         style="@style/ButtonText" -->
+<!--         > -->
+<!--     </Button> -->
+    
+    <Button
+        android:id="@+id/boost" 
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="Boost"
+        android:background="@drawable/red_button"
+        android:layout_alignParentRight="true"
+        
+        
+        style="@style/ButtonText">
+    </Button>
+    
+        <Button
+        android:id="@+id/undo" 
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="Undo"
+        android:background="@drawable/red_button"
+        android:layout_alignParentLeft="true"
+       
+        
+        style="@style/ButtonText">
+    </Button>
+<!--       <Button -->
+<!--         android:id="@+id/share"  -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_width="100dp" -->
+<!--         android:text="Share!" -->
+<!--         android:background="@drawable/red_button" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_alignRight="@+id/ab" -->
+        
+<!--         style="@style/ButtonText"> -->
+<!--     </Button> -->
+      
+     <TextView 
+        android:id="@+id/what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boost"
+        android:layout_centerHorizontal="true"
+        android:text="@string/about"
+        android:textColor="#2BEE86"
+        android:textSize="16dp"
+        />
+     
+     </RelativeLayout>
+     </ScrollView>
+     </LinearLayout>
